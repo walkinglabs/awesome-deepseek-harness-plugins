@@ -273,6 +273,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-explain](https://github.com/yuezengwu/dsh-explain) - Local-first learning mode with global learning threads and explainable context.
 
 ## Tools, Integrations & Automation
+- [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) - Complete reverse-skill pack (85 SKILL.md) as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router.
 
 - [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool) - Create and manage sandboxed JavaScript tools with a Monaco-based editor.
 - [dsh-tool-search](https://github.com/vibeinging/dsh-tool-search) - On-demand tool discovery and progressive schema disclosure.
