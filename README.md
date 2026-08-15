@@ -212,6 +212,7 @@ DSH provides a hierarchy-oriented delegation surface and workflow components; pr
 - [Developer Tooling](#developer-tooling)
 - [Utilities](#utilities)
 - [Creative & Personal](#creative--personal)
+- [Games & Play](#games--play)
 - [Launchers & Clients](#launchers--clients)
 - [Ecosystem Indexes](#ecosystem-indexes)
 - [Contributing](#contributing)
@@ -319,6 +320,8 @@ flowchart LR
 
 ## Interfaces & Web UI
 
+- [dsh-ux-simple](https://github.com/KhalilYamber/dsh-ux-simple) - A two-mode Web UI that provides plain-language tool-call cards while preserving the native view.
+- [dsh-any-background](https://github.com/Tkingxiao/dsh-any-background) - Local-browser theme color, wallpaper, opacity, and blur customization for DSH Web.
 - [dsh-tui](https://github.com/orriduck/dsh-tui) - Small session-aware terminal UI.
 - [dsh-cc-tui](https://github.com/ccch1mneyyy/dsh-cc-tui) - Claude Code-style full-screen terminal interface.
 - [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) - Terminal UI for DSH.
@@ -369,7 +372,10 @@ flowchart LR
 - [dsh-fun-weather](https://github.com/omdsh-dev/dsh-fun-weather) - Open-Meteo weather tab and weather-following themes.
 - [dsh-fun-ticker](https://github.com/omdsh-dev/dsh-fun-ticker) - Configurable crypto, FX, A-share, index, and stock ticker.
 - [dsh-fun-typewriter](https://github.com/omdsh-dev/dsh-fun-typewriter) - WebAudio typing ambience with plugin settings.
-- [dsh-minigames](https://github.com/lhh010/dsh-minigames) - Offline side-panel mini-games for wait time.
+
+## Games & Play
+
+- [dsh-minigames](https://github.com/lhh010/dsh-minigames) - An offline DSH Web side panel with 18 mini-games, including Dino, Tetris, Tanks, Gomoku, and Minesweeper.
 
 ## Launchers & Clients
 
