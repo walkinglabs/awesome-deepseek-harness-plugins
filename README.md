@@ -351,6 +351,7 @@ flowchart LR
 - [dsh-paste-input](https://github.com/lhh010/dsh-paste-input) - Clipboard paste, drag-and-drop, and file-picker enhancements.
 - [dsh-input-history](https://github.com/lhh010/dsh-input-history) - Terminal-style input history navigation.
 - [dsh-ui-progress](https://github.com/lhh010/dsh-ui-progress) - Session progress, generation speed, interruption, and todo indicators.
+- [Open Sea Skin](https://github.com/d-dev0101/open-sea-skin) - Local-only WebGPU ocean skin with wave, daylight, glass-opacity, and day-cycle controls. Compatible with DSH Web 0.1.0-rc.6.
 
 ## Developer Tooling
 
