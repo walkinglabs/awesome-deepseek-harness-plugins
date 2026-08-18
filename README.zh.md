@@ -270,6 +270,7 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 
 ### 近期通过核验的新增 / Recently verified additions
 
+- [odai-dsh-plugin](https://github.com/orziz/odai/tree/main/dsh/plugin) - 面向整个 DSH profile 的治理与路由 bundle，提供本地作用域语义记忆与可配置的压缩调用；兼容 DSH 0.1.0-rc.6 与 0.1.0-rc.7。 / Profile-wide governance and routing bundle with scoped local semantic memory and configurable compaction calls; compatible with DSH 0.1.0-rc.6 and 0.1.0-rc.7.
 - [dsh-file-claim](https://github.com/Nwflower/dsh-file-claim) - 为同一工作区的并行 DSH 会话提供文件认领/释放保护，含过期心跳接管与待处理三路合并区。 / File claim/release protection for parallel DSH sessions in one workspace, with stale-heartbeat takeover and a pending three-way-merge area.
 - [dsh-context-proxy](https://github.com/EvilIrving/dsh-context-proxy) - 基于官方 session-query 与 subprocess 接缝，按需通过 `context_query`、`context_slice`、`context_grep` 读取已持久化会话历史。 / On-demand context tools over persisted session history, using the official session-query and subprocess seams.
 - [dsh-fail-logger](https://github.com/Areium/dsh-fail-logger) - 将原生、Code Mode 与内嵌工具调用失败按错因去重写入本地维护的 Skill 区段；落盘前会脱敏已支持的秘密模式。 / Deduplicates failed tool calls into a locally maintained skill section; supported secret patterns are redacted before persistence.

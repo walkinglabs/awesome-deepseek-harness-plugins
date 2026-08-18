@@ -272,6 +272,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [TokenLedger](https://github.com/zh667/TokenLedger) - Local token-usage accounting by relay site, project, and model, with balance and subscription-quota panels; compatible with DSH 0.1.0-rc.6 and later.
 - [dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) - Cross-session memory, branch awareness, session search, and self-evolving skills.
 - [Nowledge Mem for DSH](https://github.com/nowledge-co/nowledge-mem-deepseek-harness) - Community memory-plugin bundle built around Nowledge Mem.
+- [odai-dsh-plugin](https://github.com/orziz/odai/tree/main/dsh/plugin) - Profile-wide governance and routing bundle with scoped local semantic memory and configurable compaction calls; compatible with DSH 0.1.0-rc.6 and 0.1.0-rc.7.
 - [dsh-session-search](https://github.com/Tieboyh/dsh-session-search) - Index-free cross-agent session search.
 - [dsh-session-health](https://github.com/omdsh-dev/dsh-session-health) - Read-only diagnostics for multi-frame zstd session files.
 - [dsh-postmortem](https://github.com/zzh-newlearner/dsh-postmortem) - Local-first failure postmortems for DSH sessions.
