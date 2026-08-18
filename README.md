@@ -417,6 +417,7 @@ These are community indexes rather than individual plugins; use them as secondar
 - [awesome-DSH-plugin](https://github.com/Alex-Yanggg/awesome-DSH-plugin) - Curated DSH extensions and development resources.
 - [awesome-deepseek-harness](https://github.com/Dominic789654/awesome-deepseek-harness) - DSH plugins, skills, MCP servers, orchestrators, and UIs.
 - [dsh-suite](https://github.com/whyihaveyou/dsh-suite) - Bilingual directory with daily compatibility CI and a scaffold.
+- [DSHPlugin.app](https://dshplugin.app/) - Independent DSH plugin directory with source-backed capability summaries, install information, repository activity, and security signals.
 - [oh-my-dsh](https://github.com/wangshunnn/oh-my-dsh) - DSH plugin collection.
 - [oh-my-dsh](https://github.com/LaplaceYoung/oh-my-dsh) - Large DSH extension ecosystem catalog.
 
