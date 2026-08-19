@@ -242,6 +242,7 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [GitHub `dsh-plugin` topic](https://github.com/topics/dsh-plugin) - 官方建议用于 DSH 插件发现的 topic；**仅用于发现，不构成收录证据**。
 - [插件注册表](https://github.com/vlln/plugin-registry) - Repository-plugin 控制台和 `make-dsh-plugin` 开发指导。
 - [插件工作坊](https://github.com/omdsh-dev/dsh-hub-workshop) - 社区插件市场和注册表实践。
+- [Sandbase DSH Plugin Store](https://github.com/sandbaseai/dsh-plugin-store) - DSH 设置页原生插件市场，提供目录搜索、标签筛选、插件安装与已安装包清单；源码预览基于 DSH `0.1.0-rc.5` 开发。
 
 ## 收录保证
 

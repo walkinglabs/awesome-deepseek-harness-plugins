@@ -238,6 +238,7 @@ DSH provides a hierarchy-oriented delegation surface and workflow components; pr
 - [GitHub topic: `dsh-plugin`](https://github.com/topics/dsh-plugin) - The official recommended GitHub topic for DSH plugin repositories.
 - [Plugin registry](https://github.com/vlln/plugin-registry) - A lightweight repository-plugin console and `make-dsh-plugin` development guide.
 - [Plugin workshop](https://github.com/omdsh-dev/dsh-hub-workshop) - Community plugin-marketplace and registry workshop.
+- [Sandbase DSH Plugin Store](https://github.com/sandbaseai/dsh-plugin-store) - Native Settings marketplace for catalog search, tag filtering, plugin installation, and installed-package inventory; source preview developed against DSH `0.1.0-rc.5`.
 
 ### Curation policy
 
