@@ -261,6 +261,8 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-undo](https://github.com/LingLambda/dsh-undo) - Context undo/redo around the last completed agent step.
 - [dsh-openbiliclaw](https://github.com/whiteguo233/dsh-openbiliclaw) - OpenBiliClaw client integration with recommendation and agent-bridge tools.
 - [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) - Import full-fidelity conversation histories from 13 coding agents (Claude Code / Codex / ChatGPT / Cursor / Gemini / Reasonix / opencode / ZCode / Grok Build / OpenClaw / Pi / Hermes / Kimi) as resumable DeepSeek Harness sessions, with reverse export/sync back to Claude Code.
+- [dsh-routed-subagent](https://github.com/bpc-oss/dsh-routed-subagent) - Run a one-shot subagent fully mounted on any agent preset from any session, with per-call model/provider override, model pre-check, and external CLI engines (codex / claude / codebuddy) with background jobs, live progress, kill, and continuable sessions.
+- [dsh-fork-to-preset](https://github.com/bpc-oss/dsh-fork-to-preset) - Fork any session into a different agent preset from the conversation header: a preset picker creates a new child session mounted on the chosen preset, inheriting the source session's completed turns.
 
 ## Context, Memory & Observability
 
