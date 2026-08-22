@@ -270,6 +270,7 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 
 ### 近期通过核验的新增 / Recently verified additions
 
+- [DeepSeek Harness Brain](https://github.com/AgriciDaniel/deepseek-harness-brain) - 带来源引用的学习与开发资源，含白话指南、Obsidian 知识库、辅助 Skill 与可移植性指引；基于固定 DSH 上游提交审阅。 / Source-cited learning and development resource with a plain-English guide, Obsidian knowledge base, assistant skill, and portability guidance; reviewed against a pinned upstream DSH commit.
 - [dsh-smooth-stream](https://github.com/Laplace-bit/dsh-smooth-stream) - 为 DeepSeek Harness Web UI 提供流畅流式渲染和丝滑滚动；已使用 DSH 0.1.0-rc.6 测试。 / Fluid streaming rendering and smooth scrolling for the DeepSeek Harness Web UI; tested with DSH 0.1.0-rc.6.
 - [odai-dsh-plugin](https://github.com/orziz/odai/tree/main/dsh/plugin) - 面向整个 DSH profile 的治理与路由 bundle，提供本地作用域语义记忆与可配置的压缩调用；兼容 DSH 0.1.0-rc.6 与 0.1.0-rc.7。 / Profile-wide governance and routing bundle with scoped local semantic memory and configurable compaction calls; compatible with DSH 0.1.0-rc.6 and 0.1.0-rc.7.
 - [dsh-mqtt](https://github.com/UllrAI/dsh-mqtt) - 通过 MQTT 提交、引导、观察和取消 DSH 会话的协议驱动与 Agent Worker 网关；已使用 DSH `0.1.0-rc.7` 测试。 / MQTT protocol driver and agent worker gateway for submitting, steering, observing, and cancelling DSH sessions; tested with DSH `0.1.0-rc.7`.
