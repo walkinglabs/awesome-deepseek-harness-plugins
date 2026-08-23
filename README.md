@@ -363,6 +363,7 @@ flowchart LR
 
 ## Developer Tooling
 
+- [dsh-llm-verifier](https://github.com/Web0926/dsh-llm-verifier) - Approval-gated best-of-3/5 coding-agent orchestration: isolated Git worktrees, host validation commands, an LLM verifier, and a separate winner-apply step with credential and process-output safeguards.
 - [DeepSeek Harness Brain](https://github.com/AgriciDaniel/deepseek-harness-brain) - Source-cited learning and development resource with a plain-English guide, Obsidian knowledge base, assistant skill, and portability guidance; reviewed against a pinned upstream DSH commit.
 - [dsh-fail-logger](https://github.com/Areium/dsh-fail-logger) - Deduplicates failed native, Code Mode, and inline tool calls into a locally maintained skill section; supported secret patterns are redacted before persistence.
 - [dsh-reviewer-bot](https://github.com/chaojixinren/dsh-reviewer-bot) - Configurable DSH-native code-review bundle for GitHub and GitLab, with fail-closed write mode and local replay support.
