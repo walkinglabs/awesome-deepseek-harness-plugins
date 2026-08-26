@@ -345,6 +345,7 @@ flowchart LR
 - [dsh-tui](https://github.com/orriduck/dsh-tui) - Small session-aware terminal UI.
 - [dsh-cc-tui](https://github.com/ccch1mneyyy/dsh-cc-tui) - Claude Code-style full-screen terminal interface.
 - [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) - Terminal UI for DSH.
+- [dsh-tmux-cc](https://github.com/adrianleb/dsh-tmux-cc) - Persistent tmux control-mode cockpit for DSH Web that mirrors native panes in a dock.
 - [dsh-grok-tui](https://github.com/chen-001/dsh-grok-tui) - Use DSH through grok-build's TUI.
 - [dsh-focus-chat](https://github.com/dingyi222666/dsh-focus-chat) - Reduced chat view that emphasizes final outputs.
 - [dsh-working-activity](https://github.com/ccch1mneyyy/dsh-working-activity) - Live status line for model activity and tools.
