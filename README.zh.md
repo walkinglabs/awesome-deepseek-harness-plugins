@@ -243,6 +243,7 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [GitHub `dsh-plugin` topic](https://github.com/topics/dsh-plugin) - 官方建议用于 DSH 插件发现的 topic；**仅用于发现，不构成收录证据**。
 - [插件注册表](https://github.com/vlln/plugin-registry) - Repository-plugin 控制台和 `make-dsh-plugin` 开发指导。
 - [插件工作坊](https://github.com/omdsh-dev/dsh-hub-workshop) - 社区插件市场和注册表实践。
+- [DeepSeek Harness Handbook](https://github.com/sandbaseai/deepseek-harness-handbook) - 面向 Agent 的来源可追溯指南与按能力索引的资源地图；请将版本固定和验证说明作为辅助研究入口，不要视为安装或安全背书。
 
 ## 收录保证
 

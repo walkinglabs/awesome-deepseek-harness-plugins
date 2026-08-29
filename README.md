@@ -433,6 +433,7 @@ These are community indexes rather than individual plugins; use them as secondar
 - [DSHPlugin.app](https://dshplugin.app/) - Independent DSH plugin directory with source-backed capability summaries, install information, repository activity, and security signals.
 - [oh-my-dsh](https://github.com/wangshunnn/oh-my-dsh) - DSH plugin collection.
 - [oh-my-dsh](https://github.com/LaplaceYoung/oh-my-dsh) - Large DSH extension ecosystem catalog.
+- [DeepSeek Harness Handbook](https://github.com/sandbaseai/deepseek-harness-handbook) - Agent-first, source-backed guides and a capability-indexed resource map; use its version pins and verification notes as a secondary research surface, not an installation or security endorsement.
 
 ## Contributing
 
