@@ -121,6 +121,7 @@ flowchart LR
 - [dsh-ernie-image](https://github.com/omdsh-dev/dsh-ernie-image) - 以 DSH bundle patch 打包的图像生成集成。 / Image-generation integration packaged for DSH.
 - [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) - 在受限 CSP 的沙箱 iframe 中渲染行内交互 HTML 卡片，并导出到工作区。 / Inline interactive HTML cards in a sandboxed iframe with constrained CSP and workspace export.
 - [dsh-image-to-path](https://github.com/cesaryike/dsh-image-to-path) - 仅同源、具备大小与图片魔数校验的粘贴/拖放上传，保存到当前会话工作区。 / Same-origin image paste/drop uploads with size and magic-byte checks, saved in the active session workspace.
+- [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) - 使用 Google、OpenAI 兼容接口、Seedream、DashScope 或本地 ComfyUI 生成和编辑图片；凭据保存在 DSH 只写凭据服务中。 / Generate and edit images with Google, OpenAI-compatible, Seedream, DashScope, or local ComfyUI providers; credentials stay in DSH's write-only credential service.
 
 ### 5. 这个 Awesome 仓库收录什么
 
