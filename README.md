@@ -326,6 +326,7 @@ flowchart LR
 - [dsh-ernie-image](https://github.com/omdsh-dev/dsh-ernie-image) - DSH image-generation integration packaged with a DSH bundle patch.
 - [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) - Inline interactive HTML cards rendered in a sandboxed iframe with a constrained CSP and workspace export.
 - [dsh-image-to-path](https://github.com/cesaryike/dsh-image-to-path) - Same-origin, size- and magic-byte-checked image paste/drop uploads saved under the active session workspace.
+- [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) - Generate and edit images with Google, OpenAI-compatible, Seedream, DashScope, or local ComfyUI providers; credentials stay in DSH's write-only credential service.
 
 ## Browser, Computer Use & Remote Execution
 
