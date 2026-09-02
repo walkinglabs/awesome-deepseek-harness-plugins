@@ -252,6 +252,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-plannotator](https://github.com/titanwings/dsh-plannotator) - Anchored plan annotations and structured agent feedback.
 
 - [dsh-product-subagent-console](https://github.com/Jokasa7/dsh-product-subagent-console) - Conversation-level multi-agent workbench for editable task planning, real child-session observation, plan-versus-runtime comparison, and evidence-backed recovery previews; tested with DSH 0.1.1-rc.2.
+- [dsh-crew](https://github.com/ZSeven-W/dsh-crew) - Dispatch DSH workers from Claude Code or Codex with in-host sessions, live progress, workspace locks, and recursion guards; external CLI workers are an explicit opt-in and use their documented always-approve modes.
 - [dsh-daily-progress](https://github.com/omdsh-dev/dsh-daily-progress) - Daily-progress workflow plugin.
 - [dsh-revive](https://github.com/omdsh-dev/dsh-revive) - Resume interrupted sessions with a command, tool, and browser control.
 - [dsh-book2skill](https://github.com/omdsh-dev/dsh-book2skill) - Five-stage book-to-skill workflow with human approval gates.
