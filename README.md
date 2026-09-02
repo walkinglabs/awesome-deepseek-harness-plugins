@@ -349,6 +349,7 @@ flowchart LR
 - [dsh-any-background](https://github.com/Tkingxiao/dsh-any-background) - Local-browser theme color, wallpaper, opacity, and blur customization for DSH Web.
 - [dsh-tui](https://github.com/orriduck/dsh-tui) - Small session-aware terminal UI.
 - [dsh-cc-tui](https://github.com/ccch1mneyyy/dsh-cc-tui) - Claude Code-style full-screen terminal interface.
+- [dsh-client-ui-brand](https://github.com/ningbonb/dsh-client-ui-brand) - Non-invasive Web product-name, logo, favicon, and PWA-icon branding; verified with DSH 0.1.1-rc.2.
 - [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) - Terminal UI for DSH.
 - [dsh-tmux-cc](https://github.com/adrianleb/dsh-tmux-cc) - Persistent tmux control-mode cockpit for DSH Web that mirrors native panes in a dock.
 - [dsh-grok-tui](https://github.com/chen-001/dsh-grok-tui) - Use DSH through grok-build's TUI.
@@ -422,6 +423,7 @@ flowchart LR
 - [dsh-launcher](https://github.com/SnowCrescenter-tech/dsh-launcher) - Portable Windows one-click launcher without a Node.js setup.
 - [DSHgo](https://github.com/Asuta/DSHgo) - Windows desktop launcher and profile manager.
 - [dsh-desktop](https://github.com/bruc3van/dsh-desktop) - Electron desktop client with workspace, session-sharing, remote, and tray support.
+- [dsh-web-desktop](https://github.com/ningbonb/dsh-web-desktop) - Electron launcher that reuses an existing DSH Web profile, including its plugins, sessions, and settings; verified with DSH 0.1.1-rc.2.
 - [orbis](https://github.com/icodesign/orbis) - Mobile remote-control client for DeepSeek Harness.
 - [oh-dsh-desktop](https://github.com/hust-open-atom-club/oh-dsh-desktop) - Extensible macOS workbench with native PTY, workspace tools, and isolated preview marketplace.
 
