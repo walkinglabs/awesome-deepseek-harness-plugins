@@ -267,6 +267,8 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-routed-subagent](https://github.com/bpc-oss/dsh-routed-subagent) - Run a one-shot subagent fully mounted on any agent preset from any session, with per-call model/provider override, model pre-check, and external CLI engines (codex / claude / codebuddy) with background jobs, live progress, kill, and continuable sessions.
 - [dsh-fork-to-preset](https://github.com/bpc-oss/dsh-fork-to-preset) - Fork any session into a different agent preset from the conversation header: a preset picker creates a new child session mounted on the chosen preset, inheriting the source session's completed turns.
 
+- [dsh-continue](https://github.com/weibaohui/dsh-continue) - Auto-resume for interrupted DSH agent sessions: an ordered rule table routes by failure type (rate limit, quota, auth, context overflow, crashed orphan) into backoff retry, model switch, resume after compaction, or stop-loss notification, with a visual rule editor and activity log; installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-continue`).
+
 ## Context, Memory & Observability
 
 - [dsh-context-proxy](https://github.com/EvilIrving/dsh-context-proxy) - On-demand `context_query`, `context_slice`, and `context_grep` tools over persisted session history, using the official session-query and subprocess seams.
