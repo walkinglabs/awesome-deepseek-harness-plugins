@@ -268,6 +268,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-fork-to-preset](https://github.com/bpc-oss/dsh-fork-to-preset) - Fork any session into a different agent preset from the conversation header: a preset picker creates a new child session mounted on the chosen preset, inheriting the source session's completed turns.
 
 - [dsh-continue](https://github.com/weibaohui/dsh-continue) - Auto-resume for interrupted DSH agent sessions: an ordered rule table routes by failure type (rate limit, quota, auth, context overflow, crashed orphan) into backoff retry, model switch, resume after compaction, or stop-loss notification, with a visual rule editor and activity log; installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-continue`).
+- [dsh-tasks](https://github.com/weibaohui/dsh-tasks) - Scheduled tasks: run a prompt on cron schedules, each run opens a new agent session to do the work, with workspace binding, manual run, session auto-naming, and a fullscreen task management page; installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-tasks`).
 
 ## Context, Memory & Observability
 
