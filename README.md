@@ -374,6 +374,8 @@ flowchart LR
 - [dsh-ui-progress](https://github.com/lhh010/dsh-ui-progress) - Session progress, generation speed, interruption, and todo indicators.
 - [Open Sea Skin](https://github.com/d-dev0101/open-sea-skin) - Local-only WebGPU ocean skin with wave, daylight, glass-opacity, and day-cycle controls. Compatible with DSH Web 0.1.0-rc.6.
 
+- [dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) - Settings-window customization for the DSH Web UI: preset or custom window sizes, fullscreen, background transparency, and theme, solid-color, or image backgrounds, with a floating-ball quick access; light and dark themes store separate colors; installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-settings-ui`).
+
 ## Developer Tooling
 
 - [dsh-llm-verifier](https://github.com/Web0926/dsh-llm-verifier) - Approval-gated best-of-3/5 coding-agent orchestration: isolated Git worktrees, host validation commands, an LLM verifier, and a separate winner-apply step with credential and process-output safeguards.
