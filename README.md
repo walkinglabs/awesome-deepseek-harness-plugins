@@ -375,6 +375,7 @@ flowchart LR
 - [Open Sea Skin](https://github.com/d-dev0101/open-sea-skin) - Local-only WebGPU ocean skin with wave, daylight, glass-opacity, and day-cycle controls. Compatible with DSH Web 0.1.0-rc.6.
 
 - [dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) - Settings-window customization for the DSH Web UI: preset or custom window sizes, fullscreen, background transparency, and theme, solid-color, or image backgrounds, with a floating-ball quick access; light and dark themes store separate colors; installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-settings-ui`).
+- [user-management](https://github.com/weibaohui/user-management) - Login gate for the dsh web UI: unauthenticated visitors get a login/register page and the first registrant becomes admin; includes user and role management plus login and access audit logs; installs via the `dsh.bundle` manifest (npm `@weibaohui/user-management`).
 
 ## Developer Tooling
 
