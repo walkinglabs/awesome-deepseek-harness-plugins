@@ -422,6 +422,8 @@ flowchart LR
 
 - [dsh-minigames](https://github.com/lhh010/dsh-minigames) - An offline DSH Web side panel with 18 mini-games, including Dino, Tetris, Tanks, Gomoku, and Minesweeper.
 
+- [dsh-xiuxian](https://github.com/weibaohui/dsh-xiuxian) - Xianxia desktop pets for DSH tied to live agent sessions: MC pixel-style companions appear as subagents spawn (up to 3 on screen), with storage-bag collection, a right-click artifact menu, a pet gallery, and Codex pet-format export; installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-xiuxian`).
+
 ## Launchers & Clients
 
 - [dsh-launcher](https://github.com/Ruler4396/dsh-launcher) - Lightweight Windows autostart launcher with a minimal WebView2 window.
