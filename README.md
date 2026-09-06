@@ -294,6 +294,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-verification-receipt](https://github.com/030611/dsh-verification-receipt) - Writes local JSONL summaries of per-turn tool outcomes and heuristic verification signals without storing prompts, tool arguments, or result text; audited against DSH commit `47f943859bef60e4160492346772ded9b24f765a` and tested with `dsh-session` rc.6.
 
 - [hermes-loop](https://github.com/weibaohui/hermes-loop) - Automatic post-conversation retrospective for DSH that distills useful experience into reusable skills for the skill library, with signal-accelerated triggers, an approval mode, and skill-library governance (archive/restore); installs via the `dsh.bundle` manifest (npm `@weibaohui/hermes-loop`).
+- [context-razor](https://github.com/weibaohui/context-razor) - Context trimmer: lists the current session's context entries with role, preview and ≈token estimate (cl100k), highlights over-threshold items, and removes selected entries exactly without LLM summarization; installs via the `dsh.bundle` manifest (npm `@weibaohui/context-razor`).
 
 ## Tools, Integrations & Automation
 - [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) - Complete reverse-skill pack (85 SKILL.md) as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router.
