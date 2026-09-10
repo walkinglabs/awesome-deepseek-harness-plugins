@@ -270,6 +270,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 
 - [dsh-continue](https://github.com/weibaohui/dsh-continue) - Auto-resume for interrupted DSH agent sessions: an ordered rule table routes by failure type (rate limit, quota, auth, context overflow, crashed orphan) into backoff retry, model switch, resume after compaction, or stop-loss notification, with a visual rule editor and activity log; installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-continue`).
 - [dsh-tasks](https://github.com/weibaohui/dsh-tasks) - Scheduled tasks: run a prompt on cron schedules, each run opens a new agent session to do the work, with workspace binding, manual run, session auto-naming, and a fullscreen task management page; installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-tasks`).
+- [dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) - Smart session titles for DSH: after each conversation turn an independent auxiliary LLM call summarizes the full user+assistant transcript into a title that follows the session's real topic instead of echoing the first message; the first message is titled instantly, failed built-in titles auto-retry on later turns, manual renames are never overwritten, and subagent/fork sessions are skipped; installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-smart-title`).
 
 ## Context, Memory & Observability
 
