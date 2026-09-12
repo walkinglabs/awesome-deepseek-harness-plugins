@@ -312,6 +312,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-openai-codex-auth](https://github.com/yoke233/dsh-openai-codex-auth) - OpenAI Codex OAuth login and usage-card integration.
 - [dsh-plugin-claude-bridge](https://github.com/YYTbit/dsh-plugin-claude-bridge) - Bring Claude Code memory, skills, and configuration into DSH.
 - [dsh-acp-for-bitfun](https://github.com/bobleer/dsh-acp-for-bitfun) - BitFun and DSH ACP integration.
+- [dsh-webdav-server](https://github.com/weibaohui/dsh-webdav-server) - WebDAV server: turns a shared directory into a WebDAV service that Windows, macOS and Linux can mount as a local disk, with token authentication, optional read-only mode, configurable directory/port/token, and per-platform mounting guides built into the settings page.; installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-webdav-server`).
 
 ## Design & Creative Tools
 
