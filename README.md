@@ -399,6 +399,7 @@ flowchart LR
 - [dsh-tool-approval](https://github.com/ilharp/dsh-tool-approval) - Manual/ask-mode approval for DSH tools.
 - [dsh-verify](https://github.com/263311487-ux/dsh-verify) - Independent browser acceptance testing for agent deliverables (CLI + MCP + DSH plugin). Runs real browsers against the built app and returns PASS/FAIL with screenshot evidence. DSH: `dsh plugin --profile <name> add dsh-verify` registers the dsh_verify tool (npm 0.9.3+).
 - [skills-management](https://github.com/weibaohui/skills-management) - Skill marketplace and manager: manage skills from all local coding agents (10+ executors, incl. Claude Code and Codex) in one page and import them into the DSH skill library; built-in market of 6600+ skills, per-skill token-overhead stats, and model visibility control; installs via the `dsh.bundle` manifest (npm `@weibaohui/skills-management`).
+- [dsh-git-server](https://github.com/weibaohui/dsh-git-server) - Git server: embeds ts-gogs (a TypeScript reimplementation of Gogs) and serves a full Git service on its own port — HTTP clone/push, web UI, issues/PRs/wiki — reusing user-management credentials, start/stop from the settings page.; installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-git-server`).
 
 ## Utilities
 
