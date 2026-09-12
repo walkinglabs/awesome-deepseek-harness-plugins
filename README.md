@@ -274,6 +274,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 
 ## Context, Memory & Observability
 
+- [Busabase](https://github.com/busabase/busabase-dsh-plugin) - Searchable knowledge and structured records with human-reviewed proposed writes, MCP tools, and Web UI cards; `@busabase/dsh-plugin` 0.1.6 declares DSH 0.1.1-rc.2 peer dependencies.
 - [dsh-context-proxy](https://github.com/EvilIrving/dsh-context-proxy) - On-demand `context_query`, `context_slice`, and `context_grep` tools over persisted session history, using the official session-query and subprocess seams.
 - [co-engram](https://github.com/Co-Engram/Co-Engram) - Self-evolving team memory as plain Markdown in git: 38 bare-name memory tools on `ctx.tools` plus a `memory:co-engram` prompt section re-evaluated at every assembly; ships a `dsh.bundle` manifest so `dsh plugin add @co-engram/dsh` activates with zero manual config; process-lock coexistence with its Claude Code (MCP) and OpenClaw hosts; verified against DSH 0.1.0-rc.6.
 - [dsh-compaction-instant](https://github.com/KitDoesIt/dsh-compaction-instant) - Offline, deterministic replacement for DSH's basic compaction seam, with recall tools for the append-only session log.

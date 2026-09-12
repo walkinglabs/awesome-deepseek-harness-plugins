@@ -271,6 +271,8 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 
 ### 近期通过核验的新增 / Recently verified additions
 
+- [Busabase](https://github.com/busabase/busabase-dsh-plugin) - 可检索的知识与结构化记录，支持人工审核拟议写入、MCP 工具及 Web UI 卡片；`@busabase/dsh-plugin` 0.1.6 声明 DSH 0.1.1-rc.2 peer 依赖。 / Searchable knowledge and structured records with human-reviewed proposed writes, MCP tools, and Web UI cards; `@busabase/dsh-plugin` 0.1.6 declares DSH 0.1.1-rc.2 peer dependencies.
+
 - [dsh-crew](https://github.com/ZSeven-W/dsh-crew) - 从 Claude Code 或 Codex 调度 DSH Worker，提供宿主内会话、实时进度、工作区锁与递归防护；外部 CLI Worker 需显式选择，且会使用其文档所述的始终批准模式。 / Dispatch DSH workers from Claude Code or Codex with in-host sessions, live progress, workspace locks, and recursion guards; external CLI workers are an explicit opt-in and use their documented always-approve modes.
 
 - [dsh-schematic](https://github.com/Mason-1011/dsh-schematic) - 实时插件拓扑与活动查看器，带受保护的组合工作台：编辑先预览、校验、备份，且可回滚；已使用 DSH 0.1.0-rc.8 测试。 / Live plugin-topology and activity viewer with a guarded composition workbench: edits are previewed, validated, backed up, and reversible; tested with DSH 0.1.0-rc.8.
