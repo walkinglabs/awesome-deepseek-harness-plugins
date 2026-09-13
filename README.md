@@ -303,6 +303,8 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 
 ## Tools, Integrations & Automation
 - [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) - Complete reverse-skill pack (85 SKILL.md) as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router.
+- [dsh-reach](https://github.com/PerryLink/dsh-reach) - Multi-channel approval and question bridge: pushes DSH approval and question cards to IM channels (WeChat, Telegram, Feishu) and answers them from chat, with per-channel security, a session console, and an open push service; installs via the `dsh.bundle` manifest (npm `dsh-reach`), maintained on the dsh-v0.1.5-rc.2 host line.
+- [dsh-ticktick](https://github.com/PerryLink/dsh-ticktick) - TickTick/Dida365 task bridge: a session-header task panel with list filter, quick add, complete, delete, due dates and drag reorder, plus eleven curated agent tools over the official TickTick MCP endpoint; installs via the `dsh.bundle` manifest (npm `@perrylink/dsh-ticktick`), maintained on the dsh-v0.1.5-rc.2 host line.
 
 - [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool) - Create and manage sandboxed JavaScript tools with a Monaco-based editor.
 - [dsh-tool-search](https://github.com/vibeinging/dsh-tool-search) - On-demand tool discovery and progressive schema disclosure.
