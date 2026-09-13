@@ -309,6 +309,8 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) - 完整 reverse-skill（85 个 SKILL.md）的 DSH 技能路由包，覆盖逆向工程、授权渗透测试与安全研究。 / An 85-skill DSH router pack for reverse engineering, authorized penetration testing, and security research.
 - [dsh-context](https://github.com/bowenliang123/dsh-context) - 上下文洞察面板：一眼看清模型上下文窗口的组成与变化——构成对照窗口大小、按请求历史趋势、压缩/注入事件、消息级 token 统计。 / Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats.
 - [dsh-bell-notify](https://github.com/Laplace-bit/dsh-bell-notify) - 生命周期铃声 + 状态点：为每个环节（启动、工具调用、命令、等待审批、回合完成、空闲）播放专属提示音，Web Audio 实时合成零音频文件，可上传自定义音；经 `dsh.bundle` manifest 与 Cordis patch 声明安装。 / Per-lifecycle-event chimes for DSH, synthesized live with Web Audio (zero audio files), plus a breathing status dot; declarable via a `dsh.bundle` manifest with a Cordis patch.
+- [dsh-team-rooms](https://github.com/PerryLink/dsh-team-rooms) - 持久化、跨会话的多 Agent 团队房间：成员、消息总线、共享任务板、审批门控交接与跨重启存活的时间线；经 `dsh.bundle` manifest 安装（npm `dsh-team-rooms`）。 / Persistent cross-session multi-agent team rooms with a message bus, a shared task board, approval-gated handoffs, and a timeline that survives restarts; installs via the `dsh.bundle` manifest (npm `dsh-team-rooms`).
+- [dsh-autotier](https://github.com/PerryLink/dsh-autotier) - 强/廉模型档位自动路由：意图门控落档、plan 模式交接、确定性高风险护栏与 TTL 升级回退；经 `dsh.bundle` manifest 安装（npm `dsh-autotier`）。 / Automatic strong/cheap model-tier routing with intent-gated tier landing, plan-mode handoff, deterministic guards, and TTL escalation fallback; installs via the `dsh.bundle` manifest (npm `dsh-autotier`).
 
 ## 贡献
 
