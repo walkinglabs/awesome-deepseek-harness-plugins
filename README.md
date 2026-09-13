@@ -260,6 +260,8 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-automation](https://github.com/titanwings/dsh-automation) - Run coding tasks in fresh agent sessions on a schedule.
 - [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) - AgentTeams integration for DSH.
 - [dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) - Cross-instance message and event handoff service plus tools.
+- [dsh-team-rooms](https://github.com/PerryLink/dsh-team-rooms) - Persistent, cross-session multi-agent team rooms with members, a message bus, a shared task board, approval-gated handoffs, and a timeline that survives restarts; installs via the `dsh.bundle` manifest (npm `dsh-team-rooms`), maintained on the dsh-v0.1.5-rc.2 host line.
+- [dsh-autotier](https://github.com/PerryLink/dsh-autotier) - Automatic strong/cheap model-tier routing: intent-gated tier landing on the agent/request waterfall, plan-mode handoff, deterministic high-risk guards, and TTL escalation fallback; installs via the `dsh.bundle` manifest (npm `dsh-autotier`), maintained on the dsh-v0.1.5-rc.2 host line.
 - [dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) - Restore conversation and workspace state through a persistent change ledger.
 - [dsh-undo](https://github.com/LingLambda/dsh-undo) - Context undo/redo around the last completed agent step.
 - [dsh-openbiliclaw](https://github.com/whiteguo233/dsh-openbiliclaw) - OpenBiliClaw client integration with recommendation and agent-bridge tools.
