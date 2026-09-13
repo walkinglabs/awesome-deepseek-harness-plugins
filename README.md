@@ -417,6 +417,7 @@ flowchart LR
 - [dsh-tool-stat](https://github.com/omdsh-dev/dsh-tool-stat) - Descriptive statistics, percentiles, distributions, and correlation.
 - [dsh-tool-calculator](https://github.com/omdsh-dev/dsh-tool-calculator) - Safe mathematical-expression evaluator.
 - [dsh-tool-encoding](https://github.com/omdsh-dev/dsh-tool-encoding) - Base64, URL, hex, hash, and UUID utilities.
+- [dsh-file-share](https://github.com/weibaohui/dsh-file-share) - Session workspace file manager: adds a "Files" tab to the conversation area to browse the current session workspace directory tree and manage it in place (upload, download, mkdir, rename, delete, search), with files mentionable into the composer for the agent to process.; installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-file-share`).
 
 ## Creative & Personal
 
