@@ -435,7 +435,6 @@ flowchart LR
 - [dsh-fun-weather](https://github.com/omdsh-dev/dsh-fun-weather) - Open-Meteo weather tab and weather-following themes.
 - [dsh-fun-ticker](https://github.com/omdsh-dev/dsh-fun-ticker) - Configurable crypto, FX, A-share, index, and stock ticker.
 - [dsh-fun-typewriter](https://github.com/omdsh-dev/dsh-fun-typewriter) - WebAudio typing ambience with plugin settings.
-- [dsh-code-poem](https://github.com/weibaohui/dsh-code-poem) - Code poetry: surfaces one of 4,598 classical Chinese poems, idioms or allusions as a reading card at session events (after each turn, or when a tool errors), with favorites and expandable annotations and backstories, styled as an ink-wash paper card.; installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-code-poem`).
 
 ## Games & Play
 
