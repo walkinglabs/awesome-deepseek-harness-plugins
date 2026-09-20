@@ -259,6 +259,9 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-loop](https://github.com/vlln/dsh-loop) - Scheduled loops with a `/loop` command, tool, and activity bar.
 - [dsh-automation](https://github.com/titanwings/dsh-automation) - Run coding tasks in fresh agent sessions on a schedule.
 - [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) - AgentTeams integration for DSH.
+- [jev-dsh-decision](https://github.com/Devin-AXIS/jev-dsh-decision) - Decision-engine bundle that registers DSH tools and skills; with a user-configured `TYPESAFE_API_KEY`, minimal task state is sent to the documented TypeSafe API for structured decision results.
+- [dsh-jev](https://github.com/buberlo/dsh-jev) - Decision layer for DSH’s pre-step, tool-assessment, observation, skill, and model-routing seams; defaults to local mock/shadow behavior, while explicit live mode sends redacted task state to TypeSafe and can request approval or withhold a call.
+- [Deepseek-harness-MELOS](https://github.com/kahana1247zero-web/Deepseek-harness-MELOS) - Builder-to-reviewer relay workflow with DSH tools, agent rings, and a host panel; invokes its bundled Python core as a local child process.
 - [dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) - Cross-instance message and event handoff service plus tools.
 - [dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) - Restore conversation and workspace state through a persistent change ledger.
 - [dsh-undo](https://github.com/LingLambda/dsh-undo) - Context undo/redo around the last completed agent step.
@@ -313,6 +316,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-free-web-search](https://github.com/delef/dsh-free-web-search) - Free web search with 10 engines (Bing/DuckDuckGo/SearXNG/AnySearch free + Exa/Tavily/Keenable/Perplexity/DeepSeek paid), automatic fallback chain, time-filtered advanced search, platform search (GitHub/Reddit), web page fetching, LRU caching, and a settings UI. No API keys required.
 - [dsh-mqtt](https://github.com/UllrAI/dsh-mqtt) - MQTT protocol driver and agent worker gateway for submitting, steering, observing, and cancelling DSH sessions; tested with DSH `0.1.0-rc.7`.
 - [dsh-openai-codex-auth](https://github.com/yoke233/dsh-openai-codex-auth) - OpenAI Codex OAuth login and usage-card integration.
+- [dsh-connect-qoder](https://github.com/hdhgsysh/dsh-connect-qoder) - Registers Qoder CN and global model providers in DSH. On supported local Qoder desktop installations it reads the current user’s encrypted sign-in state and sends provider requests only to Qoder’s documented regional endpoints.
 - [dsh-plugin-claude-bridge](https://github.com/YYTbit/dsh-plugin-claude-bridge) - Bring Claude Code memory, skills, and configuration into DSH.
 - [dsh-acp-for-bitfun](https://github.com/bobleer/dsh-acp-for-bitfun) - BitFun and DSH ACP integration.
 - [dsh-webdav-server](https://github.com/weibaohui/dsh-webdav-server) - WebDAV server: turns a shared directory into a WebDAV service that Windows, macOS and Linux can mount as a local disk, with token authentication, optional read-only mode, configurable directory/port/token, and per-platform mounting guides built into the settings page.; installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-webdav-server`).
@@ -396,6 +400,7 @@ flowchart LR
 - [dsh-plugin-skills](https://github.com/omdsh-dev/dsh-plugin-skills) - Agent skills for scaffolding and testing DSH plugins.
 - [dsh-plugin-dev](https://github.com/omdsh-dev/dsh-plugin-dev) - Practical plugin-development notes on Cordis, TypeScript, Windows junctions, and sessions.
 - [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) - Read-only plugin repository health checks for manifests, patches, and build pitfalls.
+- [echocat-skill-panel-3.0](https://github.com/VDERR/echocat-skill-panel-3.0) - Per-turn DSH skill-use audit and in-app manager. Its authenticated, opt-in panel can install, update, rename, and uninstall skills with staged writes and backups; optional release checks contact npm and GitHub only on user action.
 - [dsh-cert-mcp](https://github.com/PerryLink/dsh-cert-mcp) - Read-only DSH tool bundle and MCP server for looking up public plugin-certification grades, snapshots, and supporting evidence; installs via the `dsh.bundle` manifest (npm `dsh-cert-mcp`).
 - [dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide) - Plugin-development knowledge base as an on-demand agent skill plus the `dsh-plugin-dev` CLI toolchain; installs via the `dsh.bundle` manifest (npm `dsh-plugin-guide`), maintained on the dsh-v0.1.5-rc.2 host line.
 - [dsh-plugin-upgrade-015](https://github.com/PerryLink/dsh-plugin-upgrade-015) - Merged, version-locked plugin upgrade corridor (0.1.3-alpha.1 → 0.1.5-rc.1 as two closed legs): an evidence-bound version card plus a zero-dependency 20-seam scanner; installs via the `dsh.bundle` manifest (npm `dsh-plugin-upgrade-015`) with an npx scan CLI.
