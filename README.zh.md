@@ -322,40 +322,40 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [echocat-skill-panel-3.0](https://github.com/VDERR/echocat-skill-panel-3.0) - 每轮 Skill 使用审计和应用内管理器；经认证、显式开启的面板可分阶段写入并带备份地安装、更新、改名和卸载 Skills，版本检查只在用户触发时访问 npm 和 GitHub。 / Per-turn DSH skill-use audit and in-app manager. Its authenticated, opt-in panel can install, update, rename, and uninstall skills with staged writes and backups; optional release checks contact npm and GitHub only on user action.
 - [dsh-plugin-upgrade-015](https://github.com/PerryLink/dsh-plugin-upgrade-015) - 合并后的锁版本升级走廊（0.1.3-alpha.1 → 0.1.5-rc.1 两条封闭迁移腿）：带证据的版本卡 + 零依赖 20 接缝扫描器；经 `dsh.bundle` manifest 安装（npm `dsh-plugin-upgrade-015`），另有 npx 扫描 CLI。 / Merged version-locked upgrade corridor with an evidence-bound version card plus a 20-seam scanner; installs via the `dsh.bundle` manifest (npm `dsh-plugin-upgrade-015`).
 - [dsh-test-drive](https://github.com/PerryLink/dsh-test-drive) - 一次性 DSH_HOME 中的隔离「安装→冒烟→卸载」实测，输出结构化 dsh-test-drive/v1 结果矩阵；经 `dsh.bundle` manifest 安装（npm `dsh-test-drive`）。 / Isolated install-smoke-uninstall test drives for DSH plugins in a throwaway DSH_HOME, emitting structured dsh-test-drive/v1 pass/fail matrices; installs via the `dsh.bundle` manifest (npm `dsh-test-drive`).
-- [dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) - 审批应答链上的第二模型自动复审：只读复审子代理返回带理由的结构化 allow/deny 判定，默认失败即拒绝。Verified on DSH 0.1.6-alpha.2.
-- [dsh-background-agents](https://github.com/PerryLink/dsh-background-agents) - 基于官方子代理接缝的持久化后台子代理：可从任意会话启动，在 Web UI 侧边栏查看进度，随时发送消息和中断，并支持按子代理限定工具范围、人格与委派深度上限。Verified on DSH 0.1.6-alpha.2.
-- [dsh-budget](https://github.com/PerryLink/dsh-budget) - llm/stream 瀑布上的按插件用量预算与成本上限：按模型的用量核算、带警告/阻断切换的会话与月度预算、延迟窗口，以及碳足迹估算。Verified on DSH 0.1.6-alpha.2.
-- [dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind) - DeepSeek Harness 的 Claude Code /rewind：在每次变更类工具执行前进行 git 优先的工作区快照，以轮次边界派生会话，并提供一次性的 /rewind 命令，可恢复文件并把会话回退派生到某个检查点。Verified on DSH 0.1.6-alpha.2.
-- [dsh-claude-move](https://github.com/PerryLink/dsh-claude-move) - 四来源迁移向导：将 Claude Code、Codex、OpenCode 和 Hermes 的会话、记忆、技能、指令与斜杠命令迁移到 DSH（/move 向导，带审批门禁和幂等的 move.json，会话可恢复）。Verified on DSH 0.1.6-alpha.2.
-- [dsh-click](https://github.com/PerryLink/dsh-click) - Windows 桌面 computer-use 工具（点击、输入、按键、截图），具备新鲜度检查、审批门控、围绕每个动作的进程身份校验，以及脱敏的审计轨迹。Verified on DSH 0.1.6-alpha.2.
-- [dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) - Web 输入框的终端风格输入历史：以边缘优先的方向键回溯，可精确恢复草稿/光标位置，浏览器本地持久化历史，Ctrl+R 反向搜索，以及滑动上下文感知；0.5.0 新增智能输入层——跨会话片段（/save、/load）、带变量的提示词模板、复用洞察和压缩摘要高亮。Verified on DSH 0.1.6-alpha.2.
-- [dsh-data-quality](https://github.com/PerryLink/dsh-data-quality) - DeepSeek Harness 的数据质量检查——剖析、清洗和校验流水线，并生成结构化报告。Verified on DSH 0.1.6-alpha.2.
-- [dsh-defend](https://github.com/PerryLink/dsh-defend) - 在 agent/pre-step、tools/pre-execute 和 tools/post-execute 接缝上检测提示注入、越狱和密钥泄露模式，具备 allow/ask/block 分级、脱敏的 defend/detection 审计事件、defend_report 工具，以及破坏性删除命令防护。Verified on DSH 0.1.6-alpha.2.
-- [dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) - 工程纪律守卫：首次编辑前进行需求质询、红/绿测试证据门禁、派生对手审查，以及带按维度验证工作流的交付报告。Verified on DSH 0.1.6-alpha.2.
-- [dsh-draw](https://github.com/PerryLink/dsh-draw) - 多引擎文生图（OpenAI Images 和智谱 CogView 预设），支持按会话配额跟踪、引擎故障转移、凭据安全配置，以及带重新生成的结果卡片。Verified on DSH 0.1.6-alpha.2.
-- [dsh-fast](https://github.com/PerryLink/dsh-fast) - DeepSeek Harness 的性能剖析与 LLM 缓存诊断——上下文工程、延迟剖析和缓存行为报告。Verified on DSH 0.1.6-alpha.2.
-- [dsh-fund-research](https://github.com/PerryLink/dsh-fund-research) - 面向中国公募基金的确定性研究报告，基于公开来源数据（天天基金和东方财富）构建，采用纯函数指标（业绩分解、持仓穿透、风格归因、经理画像），并提供带逐项数字快照可追溯附录的版本化报告。Verified on DSH 0.1.6-alpha.2.
-- [dsh-github](https://github.com/PerryLink/dsh-github) - 官方级 GitHub CI 集成：复合 action.yml、带幂等行内评论和状态检查门禁的轮询式 PR 审查机器人，以及所有写入都由人工审批门控的 PR/issue 工具。Verified on DSH 0.1.6-alpha.2.
-- [dsh-industry-research](https://github.com/PerryLink/dsh-industry-research) - DeepSeek Harness 的确定性行业研究报告——公司与行业研究流程基于分阶段证据生成结构化、可验证的报告。Verified on DSH 0.1.6-alpha.2.
-- [dsh-library](https://github.com/PerryLink/dsh-library) - 将本地 markdown 与文本文档转化为可查询的知识库，支持语义与关键词混合检索、引用校验和来源注入。Verified on DSH 0.1.6-alpha.2.
-- [dsh-local-ai](https://github.com/PerryLink/dsh-local-ai) - DeepSeek Harness 的 Ollama 提供方，支持模型管理、健康检查、基于规则的本地路由和云端回退。Verified on DSH 0.1.6-alpha.2.
-- [dsh-lsp-actions](https://github.com/PerryLink/dsh-lsp-actions) - DSH 的 LSP 动作面：诊断、格式化、补全、代码操作、符号、签名帮助、内联提示和重命名，全部由真实语言服务器支撑。Verified on DSH 0.1.6-alpha.2.
-- [dsh-mask](https://github.com/PerryLink/dsh-mask) - DeepSeek Harness 的 PII 脱敏——在请求前匿名化姓名、电话、邮箱、ID 和密钥，并在展示层还原，使明文不进入会话日志。Verified on DSH 0.1.6-alpha.2.
-- [dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel) - 官方 DSH MCP 客户端的只读运行时管理面板：通过 /mcp 命令和设置标签页查看连接状态、已注册工具、错误和重连次数，具备脱敏显示以及启用/禁用补丁建议。Verified on DSH 0.1.6-alpha.2.
-- [dsh-memento](https://github.com/PerryLink/dsh-memento) - 有界、分层、审批门控、可审计的跨会话记忆：带类型的 `ctx.memory` 接缝、零依赖 SQLite 提供方、`memory` 工具和冻结快照注入，外加带适配器注册表与可分发一致性套件的 dsh-memory-protocol v1 演练。Verified on DSH 0.1.6-alpha.2.
-- [dsh-observe](https://github.com/PerryLink/dsh-observe) - 将会话事件流以脱敏、带缓冲的追踪和指标形式导出到 OpenTelemetry OTLP 和 Langfuse，默认关闭。Verified on DSH 0.1.6-alpha.2.
-- [dsh-output-styles](https://github.com/PerryLink/dsh-output-styles) - 运行时可切换的模型输出风格，与 Claude Code outputStyles 对齐，并提供 output.render.* 展示协议：/style 命令、按会话持久化、systemPrompt 注入、六种内置风格、Web 选择器，以及带按会话/按工具规则的渲染器注册表和 /export。Verified on DSH 0.1.6-alpha.2.
-- [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) - Claude Code 风格的声明式权限规则：在 tools/pre-execute 瀑布上按顺序匹配工具名称、参数、工作区路径和代理身份的 allow/deny/ask YAML 规则，并具备完整的会话日志审计、dry-run 模式和热重载。Verified on DSH 0.1.6-alpha.2.
-- [dsh-plugin-doctor](https://github.com/PerryLink/dsh-plugin-doctor) - 面向 DSH 插件的零依赖静态与沙箱冒烟检测器：包结构门禁、Cordis 契约扫描、无密钥无头冒烟，以及生态列表检查。Verified on DSH 0.1.6-alpha.2.
-- [dsh-plugin-kit](https://github.com/PerryLink/dsh-plugin-kit) - 用于编写 DeepSeek Harness 插件的共享工具包，以 @perrylink/dsh-plugin-kit 发布：可插拔的提供方注册表接缝、失败即拒绝的审批与会话事件门禁、共享的 sanitize/pricing/judge 模块，以及新插件骨架。Verified on DSH 0.1.6-alpha.2.
-- [dsh-plugin-upgrade](https://github.com/PerryLink/dsh-plugin-upgrade) - DeepSeek Harness 的插件作者升级技能：单个包携带走廊索引，能检测调用方所处的对等版本区间并路由到与之匹配的封闭走廊卡片（0.1.3-alpha.1 -> 0.1.5-rc.1 为 A+B 段，0.1.5-rc.2 -> 0.1.6-alpha.2 为 C 段），另附以 bundle 技能和 npx CLI 形式分发的零依赖接缝扫描器。Verified on DSH 0.1.6-alpha.2.
-- [dsh-research-report](https://github.com/PerryLink/dsh-research-report) - DeepSeek Harness 的可验证研究报告引擎，具备内容寻址的证据账本、版本化的密封报告（每条论断都带有验证结论，并由清单哈希封存目录），以及复用 ctx.web 和 ctx.jobs 接缝的检索编排。Verified on DSH 0.1.6-alpha.2.
-- [dsh-score](https://github.com/PerryLink/dsh-score) - 面向 DeepSeek Harness 插件的多维度质量评分，基于真实 CLI 证据，从安装成功率、维护活跃度、文档完整度、安全扫描和协议合规性等方面对仓库或 npm 包打分，并生成 JSON 或 Markdown 排行榜报告。Verified on DSH 0.1.6-alpha.2.
-- [dsh-session-pin](https://github.com/PerryLink/dsh-session-pin) - 将会话和工作区置顶到 Web 侧边栏顶部，支持每个置顶项的行颜色、标题栏开关和置顶面板；0.4.0 新增导航组织器——置顶分组（看板）、标签与已保存的筛选视图、会话健康摘要，以及 /goto。Verified on DSH 0.1.6-alpha.2.
-- [dsh-session-sync](https://github.com/PerryLink/dsh-session-sync) - DeepSeek Harness 的跨设备会话同步——通过 git 在多台机器之间同步会话和设置。Verified on DSH 0.1.6-alpha.2.
-- [dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) - 安全审计方法技能包以及 plugin_vet 供应链门禁：八个代理技能（密钥扫描、依赖审计、供应链审查、提示注入审查、审计编排、威胁建模、漏洞情报、事件响应），提供中英文两个版本，并附带一个 npm 提供方 bundle，用于挂载这些技能并注册自动化的 plugin_vet 安装前扫描器。Verified on DSH 0.1.6-alpha.2.
-- [dsh-talk](https://github.com/PerryLink/dsh-talk) - DeepSeek Harness 的语音输入输出——通过麦克风和音频输出实现语音转文字与文字转语音。Verified on DSH 0.1.6-alpha.2.
-- [dsh-translate](https://github.com/PerryLink/dsh-translate) - DeepSeek Harness 的工具输出修复层——工具调用的 JSON schema 强制校验、参数映射和 JSON 修复。Verified on DSH 0.1.6-alpha.2.
+- [dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) - 审批应答链上的第二模型自动复审：只读复审子代理返回带理由的结构化 allow/deny 判定，默认失败即拒绝。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-background-agents](https://github.com/PerryLink/dsh-background-agents) - 基于官方子代理接缝的持久化后台子代理：可从任意会话启动，在 Web UI 侧边栏查看进度，随时发送消息和中断，并支持按子代理限定工具范围、人格与委派深度上限。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-budget](https://github.com/PerryLink/dsh-budget) - llm/stream 瀑布上的按插件用量预算与成本上限：按模型的用量核算、带警告/阻断切换的会话与月度预算、延迟窗口，以及碳足迹估算。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind) - DeepSeek Harness 的 Claude Code /rewind：在每次变更类工具执行前进行 git 优先的工作区快照，以轮次边界派生会话，并提供一次性的 /rewind 命令，可恢复文件并把会话回退派生到某个检查点。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-claude-move](https://github.com/PerryLink/dsh-claude-move) - 四来源迁移向导：将 Claude Code、Codex、OpenCode 和 Hermes 的会话、记忆、技能、指令与斜杠命令迁移到 DSH（/move 向导，带审批门禁和幂等的 move.json，会话可恢复）。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-click](https://github.com/PerryLink/dsh-click) - Windows 桌面 computer-use 工具（点击、输入、按键、截图），具备新鲜度检查、审批门控、围绕每个动作的进程身份校验，以及脱敏的审计轨迹。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) - Web 输入框的终端风格输入历史：以边缘优先的方向键回溯，可精确恢复草稿/光标位置，浏览器本地持久化历史，Ctrl+R 反向搜索，以及滑动上下文感知；0.5.0 新增智能输入层——跨会话片段（/save、/load）、带变量的提示词模板、复用洞察和压缩摘要高亮。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-data-quality](https://github.com/PerryLink/dsh-data-quality) - DeepSeek Harness 的数据质量检查——剖析、清洗和校验流水线，并生成结构化报告。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-defend](https://github.com/PerryLink/dsh-defend) - 在 agent/pre-step、tools/pre-execute 和 tools/post-execute 接缝上检测提示注入、越狱和密钥泄露模式，具备 allow/ask/block 分级、脱敏的 defend/detection 审计事件、defend_report 工具，以及破坏性删除命令防护。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) - 工程纪律守卫：首次编辑前进行需求质询、红/绿测试证据门禁、派生对手审查，以及带按维度验证工作流的交付报告。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-draw](https://github.com/PerryLink/dsh-draw) - 多引擎文生图（OpenAI Images 和智谱 CogView 预设），支持按会话配额跟踪、引擎故障转移、凭据安全配置，以及带重新生成的结果卡片。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-fast](https://github.com/PerryLink/dsh-fast) - DeepSeek Harness 的性能剖析与 LLM 缓存诊断——上下文工程、延迟剖析和缓存行为报告。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-fund-research](https://github.com/PerryLink/dsh-fund-research) - 面向中国公募基金的确定性研究报告，基于公开来源数据（天天基金和东方财富）构建，采用纯函数指标（业绩分解、持仓穿透、风格归因、经理画像），并提供带逐项数字快照可追溯附录的版本化报告。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-github](https://github.com/PerryLink/dsh-github) - 官方级 GitHub CI 集成：复合 action.yml、带幂等行内评论和状态检查门禁的轮询式 PR 审查机器人，以及所有写入都由人工审批门控的 PR/issue 工具。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-industry-research](https://github.com/PerryLink/dsh-industry-research) - DeepSeek Harness 的确定性行业研究报告——公司与行业研究流程基于分阶段证据生成结构化、可验证的报告。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-library](https://github.com/PerryLink/dsh-library) - 将本地 markdown 与文本文档转化为可查询的知识库，支持语义与关键词混合检索、引用校验和来源注入。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-local-ai](https://github.com/PerryLink/dsh-local-ai) - DeepSeek Harness 的 Ollama 提供方，支持模型管理、健康检查、基于规则的本地路由和云端回退。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-lsp-actions](https://github.com/PerryLink/dsh-lsp-actions) - DSH 的 LSP 动作面：诊断、格式化、补全、代码操作、符号、签名帮助、内联提示和重命名，全部由真实语言服务器支撑。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-mask](https://github.com/PerryLink/dsh-mask) - DeepSeek Harness 的 PII 脱敏——在请求前匿名化姓名、电话、邮箱、ID 和密钥，并在展示层还原，使明文不进入会话日志。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel) - 官方 DSH MCP 客户端的只读运行时管理面板：通过 /mcp 命令和设置标签页查看连接状态、已注册工具、错误和重连次数，具备脱敏显示以及启用/禁用补丁建议。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-memento](https://github.com/PerryLink/dsh-memento) - 有界、分层、审批门控、可审计的跨会话记忆：带类型的 `ctx.memory` 接缝、零依赖 SQLite 提供方、`memory` 工具和冻结快照注入，外加带适配器注册表与可分发一致性套件的 dsh-memory-protocol v1 演练。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-observe](https://github.com/PerryLink/dsh-observe) - 将会话事件流以脱敏、带缓冲的追踪和指标形式导出到 OpenTelemetry OTLP 和 Langfuse，默认关闭。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-output-styles](https://github.com/PerryLink/dsh-output-styles) - 运行时可切换的模型输出风格，与 Claude Code outputStyles 对齐，并提供 output.render.* 展示协议：/style 命令、按会话持久化、systemPrompt 注入、六种内置风格、Web 选择器，以及带按会话/按工具规则的渲染器注册表和 /export。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) - Claude Code 风格的声明式权限规则：在 tools/pre-execute 瀑布上按顺序匹配工具名称、参数、工作区路径和代理身份的 allow/deny/ask YAML 规则，并具备完整的会话日志审计、dry-run 模式和热重载。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-plugin-doctor](https://github.com/PerryLink/dsh-plugin-doctor) - 面向 DSH 插件的零依赖静态与沙箱冒烟检测器：包结构门禁、Cordis 契约扫描、无密钥无头冒烟，以及生态列表检查。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-plugin-kit](https://github.com/PerryLink/dsh-plugin-kit) - 用于编写 DeepSeek Harness 插件的共享工具包，以 @perrylink/dsh-plugin-kit 发布：可插拔的提供方注册表接缝、失败即拒绝的审批与会话事件门禁、共享的 sanitize/pricing/judge 模块，以及新插件骨架。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-plugin-upgrade](https://github.com/PerryLink/dsh-plugin-upgrade) - DeepSeek Harness 的插件作者升级技能：单个包携带走廊索引，能检测调用方所处的对等版本区间并路由到与之匹配的封闭走廊卡片（0.1.3-alpha.1 -> 0.1.5-rc.1 为 A+B 段，0.1.5-rc.2 -> 0.1.6-alpha.2 为 C 段），另附以 bundle 技能和 npx CLI 形式分发的零依赖接缝扫描器。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-research-report](https://github.com/PerryLink/dsh-research-report) - DeepSeek Harness 的可验证研究报告引擎，具备内容寻址的证据账本、版本化的密封报告（每条论断都带有验证结论，并由清单哈希封存目录），以及复用 ctx.web 和 ctx.jobs 接缝的检索编排。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-score](https://github.com/PerryLink/dsh-score) - 面向 DeepSeek Harness 插件的多维度质量评分，基于真实 CLI 证据，从安装成功率、维护活跃度、文档完整度、安全扫描和协议合规性等方面对仓库或 npm 包打分，并生成 JSON 或 Markdown 排行榜报告。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-session-pin](https://github.com/PerryLink/dsh-session-pin) - 将会话和工作区置顶到 Web 侧边栏顶部，支持每个置顶项的行颜色、标题栏开关和置顶面板；0.4.0 新增导航组织器——置顶分组（看板）、标签与已保存的筛选视图、会话健康摘要，以及 /goto。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-session-sync](https://github.com/PerryLink/dsh-session-sync) - DeepSeek Harness 的跨设备会话同步——通过 git 在多台机器之间同步会话和设置。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) - 安全审计方法技能包以及 plugin_vet 供应链门禁：八个代理技能（密钥扫描、依赖审计、供应链审查、提示注入审查、审计编排、威胁建模、漏洞情报、事件响应），提供中英文两个版本，并附带一个 npm 提供方 bundle，用于挂载这些技能并注册自动化的 plugin_vet 安装前扫描器。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-talk](https://github.com/PerryLink/dsh-talk) - DeepSeek Harness 的语音输入输出——通过麦克风和音频输出实现语音转文字与文字转语音。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-translate](https://github.com/PerryLink/dsh-translate) - DeepSeek Harness 的工具输出修复层——工具调用的 JSON schema 强制校验、参数映射和 JSON 修复。声明兼容 DSH 0.1.6-alpha.2。
 
 ## 贡献
 
