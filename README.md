@@ -247,7 +247,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 
 - [dsh-file-claim](https://github.com/Nwflower/dsh-file-claim) - File claim/release protection for parallel DSH sessions in one workspace, with stale-heartbeat takeover and a pending three-way-merge area.
 - [dsh-worktree](https://github.com/FlashingChen/dsh-worktree) - Permanent Codex-style Git worktrees, agent tools, `/worktree`, and per-repository manifests.
-- [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) - Codex-style `@file` mentions that search a workspace and attach file contents to prompts.
+- [dsh-at-file](https://github.com/FSMargoo/dsh-at-file) - Codex-style `@file` mentions that search a workspace and attach file contents to prompts.
 - [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) - Open a DSH workspace directly in VS Code from the Web UI.
 - [dsh-plannotator](https://github.com/titanwings/dsh-plannotator) - Anchored plan annotations and structured agent feedback.
 
@@ -373,9 +373,9 @@ flowchart LR
 
 ## Browser, Computer Use & Remote Execution
 
-- [Tabbit Browser for DSH](https://github.com/Tabbit-Browser/dsh-plugin) - Browser-automation skill with an explicit tool that can download the region-appropriate Tabbit Browser installer when the supported browser is absent or outdated.
-- [ego-browser](https://github.com/Fisfzy/ego-browser) - Chromium agent browser with semantic snapshots, controls, screenshots, CDP, and isolated workspaces.
-- [dsh-browser](https://github.com/Lum1104/dsh-browser) - Chrome sidebar extension for direct browser operation without vision capabilities.
+- [Tabbit Browser for DSH](https://github.com/Tabbit-Browser/dsh-tabbit) - Browser-automation skill with an explicit tool that can download the region-appropriate Tabbit Browser installer when the supported browser is absent or outdated.
+- [ego-browser](https://github.com/Fisfzy/dsh-ego-browser) - Chromium agent browser with semantic snapshots, controls, screenshots, CDP, and isolated workspaces.
+- [dsh-browser](https://github.com/omdsh-dev/dsh-browser) - Chrome sidebar extension for direct browser operation without vision capabilities.
 - [dsh-better-browser](https://github.com/titanwings/dsh-better-browser) - Signed-in browser access through Kimi WebBridge tools.
 - [dsh-computer-use](https://github.com/Anionex/dsh-computer-use) - Accessibility-first macOS computer-use bundle with scoped permissions and freshness checks.
 - [dsh-click](https://github.com/PerryLink/dsh-click) - Windows desktop computer-use tools (click, type, key, screenshot) with freshness checks, approval gating, process-identity verification around every action, and a sanitized audit trail. Declares compatibility with DSH 0.1.6-alpha.2.
@@ -386,10 +386,9 @@ flowchart LR
 - [dsh-schematic](https://github.com/Mason-1011/dsh-schematic) - Live plugin-topology and activity viewer with a guarded composition workbench: edits are previewed, validated, backed up, and reversible; tested with DSH 0.1.0-rc.8.
 - [dsh-reasoning-effort](https://github.com/HanaAyane/dsh-reasoning-effort) - Codex-style session model and reasoning-effort selector that follows adapter-advertised levels, with read-only guidance for custom-provider declarations.
 - [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) - Login gateway for remote, multi-user DSH Web access, with HTTPS, quotas, sandbox restrictions, and audit logs.
-- [dsh-ux-simple](https://github.com/KhalilYamber/dsh-ux-simple) - A two-mode Web UI that provides plain-language tool-call cards while preserving the native view.
+- [dsh-ux-simple](https://github.com/KhalilYamber/dsh-prism) - A two-mode Web UI that provides plain-language tool-call cards while preserving the native view.
 - [dsh-any-background](https://github.com/Tkingxiao/dsh-any-background) - Local-browser theme color, wallpaper, opacity, and blur customization for DSH Web.
-- [dsh-tui](https://github.com/orriduck/dsh-tui) - Small session-aware terminal UI.
-- [dsh-cc-tui](https://github.com/ccch1mneyyy/dsh-cc-tui) - Claude Code-style full-screen terminal interface.
+- [dsh-cc-tui](https://github.com/ccch1mneyyy/dsh-TUI) - Claude Code-style full-screen terminal interface.
 - [dsh-client-ui-brand](https://github.com/ningbonb/dsh-client-ui-brand) - Non-invasive Web product-name, logo, favicon, and PWA-icon branding; verified with DSH 0.1.1-rc.2.
 - [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) - Terminal UI for DSH.
 - [dsh-tmux-cc](https://github.com/adrianleb/dsh-tmux-cc) - Persistent tmux control-mode cockpit for DSH Web that mirrors native panes in a dock.
@@ -426,7 +425,7 @@ flowchart LR
 - [dsh-plugin-skills](https://github.com/omdsh-dev/dsh-plugin-skills) - Agent skills for scaffolding and testing DSH plugins.
 - [dsh-plugin-dev](https://github.com/omdsh-dev/dsh-plugin-dev) - Practical plugin-development notes on Cordis, TypeScript, Windows junctions, and sessions.
 - [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) - Read-only plugin repository health checks for manifests, patches, and build pitfalls.
-- [echocat-skill-panel-3.0](https://github.com/VDERR/echocat-skill-panel-3.0) - Per-turn DSH skill-use audit and in-app manager. Its authenticated, opt-in panel can install, update, rename, and uninstall skills with staged writes and backups; optional release checks contact npm and GitHub only on user action.
+- [echocat-skill-panel-3.0](https://github.com/VDERR/dsh-echocat-skill-panel) - Per-turn DSH skill-use audit and in-app manager. Its authenticated, opt-in panel can install, update, rename, and uninstall skills with staged writes and backups; optional release checks contact npm and GitHub only on user action.
 - [dsh-cert-mcp](https://github.com/PerryLink/dsh-cert-mcp) - Read-only DSH tool bundle and MCP server for looking up public plugin-certification grades, snapshots, and supporting evidence; installs via the `dsh.bundle` manifest (npm `dsh-cert-mcp`).
 - [dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide) - Plugin-development knowledge base as an on-demand agent skill plus the `dsh-plugin-dev` CLI toolchain; installs via the `dsh.bundle` manifest (npm `dsh-plugin-guide`), maintained on the dsh-v0.1.5-rc.2 host line.
 - [dsh-plugin-upgrade-015](https://github.com/PerryLink/dsh-plugin-upgrade-015) - Merged, version-locked plugin upgrade corridor (0.1.3-alpha.1 → 0.1.5-rc.1 as two closed legs): an evidence-bound version card plus a zero-dependency 20-seam scanner; installs via the `dsh.bundle` manifest (npm `dsh-plugin-upgrade-015`) with an npx scan CLI.
@@ -494,7 +493,7 @@ flowchart LR
 - [dsh-desktop](https://github.com/bruc3van/dsh-desktop) - Electron desktop client with workspace, session-sharing, remote, and tray support.
 - [dsh-web-desktop](https://github.com/ningbonb/dsh-web-desktop) - Electron launcher that reuses an existing DSH Web profile, including its plugins, sessions, and settings; verified with DSH 0.1.1-rc.2.
 - [orbis](https://github.com/icodesign/orbis) - Mobile remote-control client for DeepSeek Harness.
-- [oh-dsh-desktop](https://github.com/hust-open-atom-club/oh-dsh-desktop) - Extensible macOS workbench with native PTY, workspace tools, and isolated preview marketplace.
+- [oh-dsh-desktop](https://github.com/hust-open-atom-club/oh-dsh) - Extensible macOS workbench with native PTY, workspace tools, and isolated preview marketplace.
 
 ## Ecosystem Indexes
 
