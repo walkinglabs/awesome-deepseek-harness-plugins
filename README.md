@@ -480,6 +480,7 @@ flowchart LR
 - [dsh-industry-research](https://github.com/PerryLink/dsh-industry-research) - Deterministic industry research reports for DeepSeek Harness — company and industry research flows produce structured, verifiable reports from staged evidence. Declares compatibility with DSH 0.1.6-alpha.2.
 - [dsh-research-report](https://github.com/PerryLink/dsh-research-report) - Verifiable research-report engine for DeepSeek Harness with a content-addressed evidence ledger, versioned sealed reports where every claim carries a verification verdict and the manifest hash seals the directory, and retrieval orchestration that reuses the ctx.web and ctx.jobs seams. Declares compatibility with DSH 0.1.6-alpha.2.
 
+- [dsh-gaokao](https://github.com/weibaohui/dsh-gaokao) - Gaokao countdown blackboard: desktop blackboard widget counting down days to the gaokao (double-click to collapse into a slim bar), with random knowledge-card quizzes while the agent works; open Markdown knowledge-card framework, drop .md files under subject/category folders to auto-load. Installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-gaokao`).
 ## Games & Play
 
 - [dsh-minigames](https://github.com/lhh010/dsh-minigames) - An offline DSH Web side panel with 18 mini-games, including Dino, Tetris, Tanks, Gomoku, and Minesweeper.
