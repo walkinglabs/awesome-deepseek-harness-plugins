@@ -480,6 +480,7 @@ flowchart LR
 - [dsh-industry-research](https://github.com/PerryLink/dsh-industry-research) - Deterministic industry research reports for DeepSeek Harness — company and industry research flows produce structured, verifiable reports from staged evidence. Declares compatibility with DSH 0.1.6-alpha.2.
 - [dsh-research-report](https://github.com/PerryLink/dsh-research-report) - Verifiable research-report engine for DeepSeek Harness with a content-addressed evidence ledger, versioned sealed reports where every claim carries a verification verdict and the manifest hash seals the directory, and retrieval orchestration that reuses the ctx.web and ctx.jobs seams. Declares compatibility with DSH 0.1.6-alpha.2.
 
+- [dsh-fireworks](https://github.com/weibaohui/dsh-fireworks) - Fireworks celebration engine: floats fireworks above the chat window while the agent codes; welcome, per-turn, tool-spark, milestone, finish and failure events each draw from their own fireworks card group with random variants, and token usage decides firework size, height and splendour. Installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-fireworks`).
 ## Games & Play
 
 - [dsh-minigames](https://github.com/lhh010/dsh-minigames) - An offline DSH Web side panel with 18 mini-games, including Dino, Tetris, Tanks, Gomoku, and Minesweeper.
