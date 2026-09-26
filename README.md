@@ -479,6 +479,8 @@ flowchart LR
 - [dsh-fund-research](https://github.com/PerryLink/dsh-fund-research) - Deterministic research reports for Chinese public mutual funds built from public-source data (Tiantian Fund and Eastmoney), pure-function metrics (performance decomposition, holdings penetration, style attribution, manager profile), and versioned reports with a per-number snapshot traceability appendix. Declares compatibility with DSH 0.1.6-alpha.2.
 - [dsh-industry-research](https://github.com/PerryLink/dsh-industry-research) - Deterministic industry research reports for DeepSeek Harness — company and industry research flows produce structured, verifiable reports from staged evidence. Declares compatibility with DSH 0.1.6-alpha.2.
 - [dsh-research-report](https://github.com/PerryLink/dsh-research-report) - Verifiable research-report engine for DeepSeek Harness with a content-addressed evidence ledger, versioned sealed reports where every claim carries a verification verdict and the manifest hash seals the directory, and retrieval orchestration that reuses the ctx.web and ctx.jobs seams. Declares compatibility with DSH 0.1.6-alpha.2.
+- [dsh-matrix](https://github.com/weibaohui/dsh-matrix) - Matrix digital rain: drapes the chat window in the classic green character rain — cascading columns with incandescent white heads and green tails, streaming the tokens the agent is generating into the rain in real time; opacity, speed, density, font size and colors are all adjustable, and rain intensity follows agent activity. Installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-matrix`).
+
 
 ## Games & Play
 
