@@ -321,6 +321,8 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-observe](https://github.com/PerryLink/dsh-observe) - Exports the session event stream to OpenTelemetry OTLP and Langfuse as sanitized, buffered traces and metrics, off by default. Declares compatibility with DSH 0.1.6-alpha.2.
 - [dsh-session-pin](https://github.com/PerryLink/dsh-session-pin) - Pin sessions and workspaces to the top of the Web sidebar with per-pin row colors, a header toggle and a pinned panel; 0.4.0 adds a navigation organizer — pin groups (boards), tags and saved filter views, session health summaries, and /goto. Declares compatibility with DSH 0.1.6-alpha.2.
 - [dsh-session-sync](https://github.com/PerryLink/dsh-session-sync) - Cross-device session sync for DeepSeek Harness — syncs sessions and settings between machines through git. Declares compatibility with DSH 0.1.6-alpha.2.
+- [dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) - Usage dashboard: offline-scans session logs to chart daily/weekly/monthly tokens, estimated costs, model/tool/skill/command leaderboards, output speed, working hours and quality metrics; gridstack+ECharts cards are drag-and-drop composable, with custom formulas and AI arrangement (prompt round-trip import). Installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-dashboard`).
+
 
 ## Tools, Integrations & Automation
 - [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) - Complete reverse-skill pack (85 SKILL.md) as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router.
