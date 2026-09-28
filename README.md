@@ -371,6 +371,7 @@ flowchart LR
 - [dsh-image-to-path](https://github.com/cesaryike/dsh-image-to-path) - Same-origin, size- and magic-byte-checked image paste/drop uploads saved under the active session workspace.
 - [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) - Generate and edit images with Google, OpenAI-compatible, Seedream, DashScope, or local ComfyUI providers; credentials stay in DSH's write-only credential service.
 - [dsh-draw](https://github.com/PerryLink/dsh-draw) - Multi-engine text-to-image generation (OpenAI Images and Zhipu CogView presets) with per-session quota tracking, engine failover, credential-safe config, and a result card with regenerate. Declares compatibility with DSH 0.1.6-alpha.2.
+- [dsh-brewreel](https://github.com/Finderchangchang/brewreel/tree/main/integrations/deepseek-harness) - Turns a storyboard JSON into a vertical promo video rendered with Remotion via 7 tools (doctor, setup, catalog, guide, validate, render, verify); installs via the `dsh.bundle` manifest with a cordis.patch.yml (npm `dsh-brewreel`). Declares a peer dependency on `@deepseek-ai/dsh-tools >=0.1.7-rc.2 <0.2.0`.
 
 ## Browser, Computer Use & Remote Execution
 
