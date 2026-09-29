@@ -486,6 +486,8 @@ flowchart LR
 - [dsh-matrix](https://github.com/weibaohui/dsh-matrix) - Matrix digital rain: drapes the chat window in the classic green character rain — cascading columns with incandescent white heads and green tails, streaming the tokens the agent is generating into the rain in real time; opacity, speed, density, font size and colors are all adjustable, and rain intensity follows agent activity. Installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-matrix`).
 
 
+- [dsh-kite](https://github.com/weibaohui/dsh-kite) - Kite-flying engine: while the agent codes, an animated kite drifts and sways in the wind on screen, tethered to the bottom edge of the window — the busier the agent, the denser the events and the higher it flies; ships a Weifang-style framework card deck (sand-swallow, goldfish, butterfly, bagua, dragon-head and more, hard-wing / soft-wing / flat / dimensional frames), with shape x pattern x colors all swappable data configs, and supports pasting user images onto the kite face with real-time affine transforms as the kite banks. Installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-kite`).
+
 - [dsh-gaokao](https://github.com/weibaohui/dsh-gaokao) - Gaokao countdown blackboard: desktop blackboard widget counting down days to the gaokao (double-click to collapse into a slim bar), with random knowledge-card quizzes while the agent works; open Markdown knowledge-card framework, drop .md files under subject/category folders to auto-load. Installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-gaokao`).
 ## Games & Play
 
