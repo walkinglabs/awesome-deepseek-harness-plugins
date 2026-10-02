@@ -245,6 +245,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 
 ## Productivity & Agent Workflow
 
+- [dsh-autocompose](https://github.com/Han-1413141/dsh-autocompose) - Find and compose DSH plugins from a task description, then open an independent chat environment or install the plan into the current profile. Compatible with DSH 0.2.0-rc.2.
 - [dsh-file-claim](https://github.com/Nwflower/dsh-file-claim) - File claim/release protection for parallel DSH sessions in one workspace, with stale-heartbeat takeover and a pending three-way-merge area.
 - [dsh-worktree](https://github.com/FlashingChen/dsh-worktree) - Permanent Codex-style Git worktrees, agent tools, `/worktree`, and per-repository manifests.
 - [dsh-at-file](https://github.com/FSMargoo/dsh-at-file) - Codex-style `@file` mentions that search a workspace and attach file contents to prompts.
@@ -367,6 +368,7 @@ flowchart LR
 - [dsh-figma-to-lottie](https://github.com/zimai233/dsh-figma-to-lottie) - Compile SVG paths and keyframe data into self-contained Lottie JSON animation files.
 - [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) - OpenPencil integration with multi-frame previews, an interactive canvas, and managed editor workbenches.
 - [dsh-genui](https://github.com/omdsh-dev/dsh-genui) - Render interactive components, charts, forms, Mermaid, and 3D scenes inline in replies with an action loop back to the agent.
+- [dsh-visual-edit](https://github.com/Han-1413141/dsh-visual-edit) - Select elements, draw arrows or frame areas in DSH previews, send visual feedback to chat and compare before-and-after snapshots. Compatible with DSH 0.2.0-rc.2.
 - [dsh-web-review](https://github.com/CanglongCl/dsh-web-review) - Web preview and element annotation feedback for source editing.
 - [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) - Image Q&A, OCR, UI restoration, grounding, pixel diffs, and visual artifacts for DSH.
 - [dsh-ernie-image](https://github.com/omdsh-dev/dsh-ernie-image) - DSH image-generation integration packaged with a DSH bundle patch.
@@ -378,6 +380,8 @@ flowchart LR
 
 ## Browser, Computer Use & Remote Execution
 
+- [dsh-codex-computer-use](https://github.com/Han-1413141/dsh-codex-computer-use) - Let a DSH model inspect and operate Windows applications through an installed Codex Computer Use runtime, with per-session app approval. Compatible with DSH 0.2.0-rc.2.
+- [dsh-wsl-native](https://github.com/Han-1413141/dsh-wsl-native) - Use Windows and native Linux DSH sessions in one Windows window, with WSL environment switching and bidirectional system tools. Compatible with DSH 0.2.0-rc.2.
 - [Tabbit Browser for DSH](https://github.com/Tabbit-Browser/dsh-tabbit) - Browser-automation skill with an explicit tool that can download the region-appropriate Tabbit Browser installer when the supported browser is absent or outdated.
 - [ego-browser](https://github.com/Fisfzy/dsh-ego-browser) - Chromium agent browser with semantic snapshots, controls, screenshots, CDP, and isolated workspaces.
 - [dsh-browser](https://github.com/omdsh-dev/dsh-browser) - Chrome sidebar extension for direct browser operation without vision capabilities.
@@ -391,6 +395,7 @@ flowchart LR
 - [dsh-schematic](https://github.com/Mason-1011/dsh-schematic) - Live plugin-topology and activity viewer with a guarded composition workbench: edits are previewed, validated, backed up, and reversible; tested with DSH 0.1.0-rc.8.
 - [dsh-reasoning-effort](https://github.com/HanaAyane/dsh-reasoning-effort) - Codex-style session model and reasoning-effort selector that follows adapter-advertised levels, with read-only guidance for custom-provider declarations.
 - [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) - Login gateway for remote, multi-user DSH Web access, with HTTPS, quotas, sandbox restrictions, and audit logs.
+- [dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) - Search, show, hide, move, resize and arrange plugin controls in DSH Desktop and Web, with layout backup, restore and undo. Compatible with DSH 0.2.0-rc.2.
 - [dsh-ux-simple](https://github.com/KhalilYamber/dsh-prism) - A two-mode Web UI that provides plain-language tool-call cards while preserving the native view.
 - [dsh-any-background](https://github.com/Tkingxiao/dsh-any-background) - Local-browser theme color, wallpaper, opacity, and blur customization for DSH Web.
 - [dsh-cc-tui](https://github.com/ccch1mneyyy/dsh-TUI) - Claude Code-style full-screen terminal interface.
@@ -421,9 +426,11 @@ flowchart LR
 
 ## Developer Tooling
 
+- [dsh-compat-guardian](https://github.com/Han-1413141/dsh-compat-guardian) - Detect DSH plugin conflicts and loading failures, quarantine affected bundles and recover them, with offline startup rescue. Compatible with DSH 0.2.0-rc.2.
 - [dsh-llm-verifier](https://github.com/Web0926/dsh-llm-verifier) - Approval-gated best-of-3/5 coding-agent orchestration: isolated Git worktrees, host validation commands, an LLM verifier, and a separate winner-apply step with credential and process-output safeguards.
 - [DeepSeek Harness Brain](https://github.com/AgriciDaniel/deepseek-harness-brain) - Source-cited learning and development resource with a plain-English guide, Obsidian knowledge base, assistant skill, and portability guidance; reviewed against a pinned upstream DSH commit.
 - [dsh-fail-logger](https://github.com/Areium/dsh-fail-logger) - Deduplicates failed native, Code Mode, and inline tool calls into a locally maintained skill section; supported secret patterns are redacted before persistence.
+- [dsh-pnpm-build-control](https://github.com/Han-1413141/dsh-pnpm-build-control) - Control pnpm build-script approval across DSH profiles from Add Plugin, and repair same-Git-URL updates on DSH 0.2.0-rc.2. Compatible with DSH 0.2.0-rc.2.
 - [dsh-reviewer-bot](https://github.com/chaojixinren/dsh-reviewer-bot) - Configurable DSH-native code-review bundle for GitHub and GitLab, with fail-closed write mode and local replay support.
 - [dsh-auto-mode](https://github.com/NanmiCoder/dsh-auto-mode) - Fail-closed automatic-permission policy with protected-path and credential checks, plus redacted classifier fallback for ambiguous tool calls.
 - [Code2Skill](https://github.com/leechen298/Code2Skill) - DSH bundle of three skills that generate and review Function, MCP, and Agent Skill packages from authorized source code (version-pinned at v1.1.3).

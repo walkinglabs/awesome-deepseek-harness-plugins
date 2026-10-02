@@ -273,17 +273,25 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 
 - [Busabase](https://github.com/busabase/busabase-dsh-plugin) - 可检索的知识与结构化记录，支持人工审核拟议写入、MCP 工具及 Web UI 卡片；`@busabase/dsh-plugin` 0.1.6 声明 DSH 0.1.1-rc.2 peer 依赖。 / Searchable knowledge and structured records with human-reviewed proposed writes, MCP tools, and Web UI cards; `@busabase/dsh-plugin` 0.1.6 declares DSH 0.1.1-rc.2 peer dependencies.
 
+- [dsh-autocompose](https://github.com/Han-1413141/dsh-autocompose) - 根据任务查找并组合 DSH 插件，打开可继续对话的独立环境，或将方案中的插件安装到当前配置。 适配 DSH 0.2.0-rc.2。
+- [dsh-codex-computer-use](https://github.com/Han-1413141/dsh-codex-computer-use) - 让 DSH 当前模型通过已安装的 Codex Computer Use 运行时读取和操作 Windows 应用，并保留每个会话的应用授权。 适配 DSH 0.2.0-rc.2。
+- [dsh-compat-guardian](https://github.com/Han-1413141/dsh-compat-guardian) - 检查 DSH 插件冲突与加载故障，隔离和恢复受影响的插件，并在宿主无法启动时提供离线修复。 适配 DSH 0.2.0-rc.2。
 - [dsh-crew](https://github.com/ZSeven-W/dsh-crew) - 从 Claude Code 或 Codex 调度 DSH Worker，提供宿主内会话、实时进度、工作区锁与递归防护；外部 CLI Worker 需显式选择，且会使用其文档所述的始终批准模式。 / Dispatch DSH workers from Claude Code or Codex with in-host sessions, live progress, workspace locks, and recursion guards; external CLI workers are an explicit opt-in and use their documented always-approve modes.
 
+- [dsh-pnpm-build-control](https://github.com/Han-1413141/dsh-pnpm-build-control) - 在“添加插件”中统一控制各 DSH 配置的 pnpm 构建脚本审批，并修复 DSH 0.2.0-rc.2 的同一 Git 地址更新问题。 适配 DSH 0.2.0-rc.2。
 - [dsh-schematic](https://github.com/Mason-1011/dsh-schematic) - 实时插件拓扑与活动查看器，带受保护的组合工作台：编辑先预览、校验、备份，且可回滚；已使用 DSH 0.1.0-rc.8 测试。 / Live plugin-topology and activity viewer with a guarded composition workbench: edits are previewed, validated, backed up, and reversible; tested with DSH 0.1.0-rc.8.
 
 - [dsh-product-subagent-console](https://github.com/Jokasa7/dsh-product-subagent-console) - 面向 DSH 对话的多 Agent 工作台：支持可编辑任务方案、真实子会话观测、计划与实际运行对照，以及基于证据的恢复预览；已使用 DSH 0.1.1-rc.2 测试。 / Conversation-level multi-agent workbench for editable task planning, real child-session observation, plan-versus-runtime comparison, and evidence-backed recovery previews; tested with DSH 0.1.1-rc.2.
 
+- [dsh-sticky-disclosure](https://github.com/Han-1413141/dsh-sticky-disclosure) - 在 DSH Desktop 与 Web 中一键或用快捷键收起思考和工具区块，并将滑出屏幕的区块标题钉在会话顶部。 适配 DSH 0.2.0-rc.2。
 - [dsh-tmux-cc](https://github.com/adrianleb/dsh-tmux-cc) - 为 DSH Web 提供持久的 tmux 控制模式驾驶舱，在停靠栏中镜像原生窗格。 / Persistent tmux control-mode cockpit for DSH Web that mirrors native panes in a dock.
 - [dsh-mobile](https://github.com/saya-ch/dsh-mobile) - 为 Android App 和手机浏览器提供经过配对认证的 DSH HTTPS 访问，包含独立移动布局、相互分离的局域网与可选 Funnel/cpolar 远程通道；已验证兼容 DSH 0.1.1-rc.2。 / Paired HTTPS access to the native DSH Web profile from Android or mobile browsers, with a dedicated mobile layout, separate LAN and optional Funnel/cpolar routes; verified with DSH 0.1.1-rc.2.
 - [dsh-llm-verifier](https://github.com/Web0926/dsh-llm-verifier) - 经审批的 3/5 路编码 Agent 优选编排：隔离 Git worktree、宿主验证命令、LLM 验证器与独立赢家应用步骤，并包含凭据和进程输出防护。 / Approval-gated best-of-3/5 coding-agent orchestration with isolated Git worktrees, host validation commands, an LLM verifier, and a separate winner-apply step with credential and process-output safeguards.
 - [DeepSeek Harness Brain](https://github.com/AgriciDaniel/deepseek-harness-brain) - 带来源引用的学习与开发资源，含白话指南、Obsidian 知识库、辅助 Skill 与可移植性指引；基于固定 DSH 上游提交审阅。 / Source-cited learning and development resource with a plain-English guide, Obsidian knowledge base, assistant skill, and portability guidance; reviewed against a pinned upstream DSH commit.
 - [dsh-smooth-stream](https://github.com/Laplace-bit/dsh-smooth-stream) - 为 DeepSeek Harness Web UI 提供流畅流式渲染和丝滑滚动；已使用 DSH 0.1.0-rc.6 测试。 / Fluid streaming rendering and smooth scrolling for the DeepSeek Harness Web UI; tested with DSH 0.1.0-rc.6.
+- [dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) - 搜索、显示、隐藏、移动、缩放和排布 DSH Desktop 与 Web 中的插件控件，支持布局备份、恢复与撤销。 适配 DSH 0.2.0-rc.2。
+- [dsh-visual-edit](https://github.com/Han-1413141/dsh-visual-edit) - 在 DSH 预览中点选元素、画箭头或框选区域，将修改意见加入对话，并查看更新前后的截图对比。 适配 DSH 0.2.0-rc.2。
+- [dsh-wsl-native](https://github.com/Han-1413141/dsh-wsl-native) - 在同一个 Windows 窗口中使用 Windows 与原生 Linux DSH 会话，支持 WSL 环境切换和双向系统操作。 适配 DSH 0.2.0-rc.2。
 - [odai-dsh-plugin](https://github.com/orziz/odai/tree/main/dsh/plugin) - 面向整个 DSH profile 的治理与路由 bundle，提供用于职责与证据检查的 Web Control Center，以及压缩、本地作用域语义记忆、安全连续性与真实验收；兼容 DSH 0.1.5-rc.1。 / Profile-wide DSH governance and routing with a Web Control Center for responsibility and evidence inspection, plus compaction, scoped semantic memory, safety continuity, and verified delivery; compatible with DSH 0.1.5-rc.1.
 - [dsh-mqtt](https://github.com/UllrAI/dsh-mqtt) - 通过 MQTT 提交、引导、观察和取消 DSH 会话的协议驱动与 Agent Worker 网关；已使用 DSH `0.1.0-rc.7` 测试。 / MQTT protocol driver and agent worker gateway for submitting, steering, observing, and cancelling DSH sessions; tested with DSH `0.1.0-rc.7`.
 - [dsh-file-claim](https://github.com/Nwflower/dsh-file-claim) - 为同一工作区的并行 DSH 会话提供文件认领/释放保护，含过期心跳接管与待处理三路合并区。 / File claim/release protection for parallel DSH sessions in one workspace, with stale-heartbeat takeover and a pending three-way-merge area.
