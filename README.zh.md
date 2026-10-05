@@ -365,6 +365,7 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [dsh-talk](https://github.com/PerryLink/dsh-talk) - DeepSeek Harness 的语音输入输出——通过麦克风和音频输出实现语音转文字与文字转语音。声明兼容 DSH 0.1.6-alpha.2。
 - [dsh-translate](https://github.com/PerryLink/dsh-translate) - DeepSeek Harness 的工具输出修复层——工具调用的 JSON schema 强制校验、参数映射和 JSON 修复。声明兼容 DSH 0.1.6-alpha.2。
 - [dsh-laya](https://github.com/PerryLink/dsh-laya) - Laya 的有类型决策（`noul` 是/否、`choice`、`score`）作为一等 Cordis 服务与 `laya_ask`、`laya_plan` 两个模型可见工具；插件自身不安装也不下载任何东西，由你自行启动的 `laya-mcp serve` 边车提供模型。声明兼容 DSH 0.1.7-alpha.1。
+- [TheOne](https://github.com/YunongDai2005/dsh-theone) - 只用一个主聊天：每条消息自动交给对应话题的后台会话，各话题上下文互不干扰；已有 DSH 会话会整理成话题目录，相关话题之间同步进展。通过 `dsh.bundle` 清单安装（npm `dsh-theone`），已在 DSH 0.2.0-rc.2 上验证。 / A single main chat that routes each message to a per-topic background session with its own context, catalogues existing DSH sessions into a topic directory, and briefs related topics on each other's progress; ships a `dsh.bundle` manifest (npm `dsh-theone`), verified against DSH 0.2.0-rc.2.
 
 ## 贡献
 
