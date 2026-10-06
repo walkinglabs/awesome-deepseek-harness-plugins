@@ -283,6 +283,7 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 
 - [dsh-product-subagent-console](https://github.com/Jokasa7/dsh-product-subagent-console) - 面向 DSH 对话的多 Agent 工作台：支持可编辑任务方案、真实子会话观测、计划与实际运行对照，以及基于证据的恢复预览；已使用 DSH 0.1.1-rc.2 测试。 / Conversation-level multi-agent workbench for editable task planning, real child-session observation, plan-versus-runtime comparison, and evidence-backed recovery previews; tested with DSH 0.1.1-rc.2.
 
+- [dsh-sieve](https://github.com/Sev7eEn7/sieve) - 为 DSH 0.2.1-alpha.1 过滤工具输出、裁剪陈旧上下文并按需披露技能。
 - [dsh-sticky-disclosure](https://github.com/Han-1413141/dsh-sticky-disclosure) - 在 DSH Desktop 与 Web 中一键或用快捷键收起思考和工具区块，并将滑出屏幕的区块标题钉在会话顶部。 适配 DSH 0.2.0-rc.2。
 - [dsh-tmux-cc](https://github.com/adrianleb/dsh-tmux-cc) - 为 DSH Web 提供持久的 tmux 控制模式驾驶舱，在停靠栏中镜像原生窗格。 / Persistent tmux control-mode cockpit for DSH Web that mirrors native panes in a dock.
 - [dsh-mobile](https://github.com/saya-ch/dsh-mobile) - 为 Android App 和手机浏览器提供经过配对认证的 DSH HTTPS 访问，包含独立移动布局、相互分离的局域网与可选 Funnel/cpolar 远程通道；已验证兼容 DSH 0.1.1-rc.2。 / Paired HTTPS access to the native DSH Web profile from Android or mobile browsers, with a dedicated mobile layout, separate LAN and optional Funnel/cpolar routes; verified with DSH 0.1.1-rc.2.
