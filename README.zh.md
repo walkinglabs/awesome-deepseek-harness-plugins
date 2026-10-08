@@ -368,6 +368,8 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [dsh-laya](https://github.com/PerryLink/dsh-laya) - Laya 的有类型决策（`noul` 是/否、`choice`、`score`）作为一等 Cordis 服务与 `laya_ask`、`laya_plan` 两个模型可见工具；插件自身不安装也不下载任何东西，由你自行启动的 `laya-mcp serve` 边车提供模型。声明兼容 DSH 0.1.7-alpha.1。
 - [TheOne](https://github.com/YunongDai2005/dsh-theone) - 只用一个主聊天：每条消息自动交给对应话题的后台会话，各话题上下文互不干扰；已有 DSH 会话会整理成话题目录，相关话题之间同步进展。通过 `dsh.bundle` 清单安装（npm `dsh-theone`），已在 DSH 0.2.0-rc.2 上验证。 / A single main chat that routes each message to a per-topic background session with its own context, catalogues existing DSH sessions into a topic directory, and briefs related topics on each other's progress; ships a `dsh.bundle` manifest (npm `dsh-theone`), verified against DSH 0.2.0-rc.2.
 
+
+- [dsh-maze](https://github.com/lamost423/dsh-maze) - 执行迷宫：把一场会话的主干路径、折返与失败支路画在同一根时间轴上，配逐步数据轨道（工具调用、Token、上下文压力）、确定性分析（结果与证据、行为信号、上下文构成）与最多五场会话的并排对比；能读会话日志，也能在会话页签里实时渲染。已在 DSH 0.1.5 / 0.1.7 / 0.2.0-rc.2 上验证，当前版本 2.4.0。 / Execution maze for DSH sessions: trajectory on one timeline with per-step data tracks, deterministic analysis and multi-session comparison; verified on DSH 0.1.5 / 0.1.7 / 0.2.0-rc.2.
 ## 贡献
 
 请阅读[中文贡献指南](CONTRIBUTING.zh.md)或[English guide](CONTRIBUTING.md)。提交条目时，请提供源码中 DSH 集成的具体证据。
