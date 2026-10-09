@@ -287,6 +287,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-laya](https://github.com/PerryLink/dsh-laya) - Laya typed decisions (`noul` yes/no, `choice`, `score`) as a first-class Cordis service plus the model-visible `laya_ask` and `laya_plan` tools; it installs and downloads nothing and talks to a `laya-mcp serve` sidecar you start yourself.
 
 - [dsh-flow](https://github.com/weibaohui/dsh-flow) - Execution flow chart: renders the current session's execution as a vertical node flow (turns, user, assistant, tools, approvals, retries, compaction), appended in real time over SSE with auto-follow scrolling, so the chart draws wherever the session executes. Installs via the `dsh.bundle` manifest (npm `@weibaohui/dsh-flow`).
+- [dsh-orquestrator](https://github.com/frederico-kluser/dsh-orquestrator) - Pick the model your subagents run on — with a reasoning-effort ceiling and an output-token cap — enforced in code on every child DSH starts, whichever tool starts it (subagent tools, workflow agents, ralph rounds, one-shot jobs, agent teams); also ships the global `orchestrate-subagents` agent skill and marks each subagent on the task page with model and state. Tested with DSH 0.1.6-alpha.2.
 ## Context, Memory & Observability
 
 - [Busabase](https://github.com/busabase/busabase-dsh-plugin) - Searchable knowledge and structured records with human-reviewed proposed writes, MCP tools, and Web UI cards; `@busabase/dsh-plugin` 0.1.6 declares DSH 0.1.1-rc.2 peer dependencies.
