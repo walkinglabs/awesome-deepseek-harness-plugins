@@ -372,6 +372,7 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [dsh-maze](https://github.com/lamost423/dsh-maze) - 执行迷宫：把一场会话的主干路径、折返与失败支路画在同一根时间轴上，配逐步数据轨道（工具调用、Token、上下文压力）、确定性分析（结果与证据、行为信号、上下文构成）与最多五场会话的并排对比；能读会话日志，也能在会话页签里实时渲染。已在 DSH 0.1.5 / 0.1.7 / 0.2.0-rc.2 上验证，当前版本 2.4.0。 / Execution maze for DSH sessions: trajectory on one timeline with per-step data tracks, deterministic analysis and multi-session comparison; verified on DSH 0.1.5 / 0.1.7 / 0.2.0-rc.2.
 
 - [dsh-jev-plugin](https://github.com/luobosibing2/dsh-jev-plugin) - 原生 DSH/Cordis TypeSafe Jev 决策支持集成：可选择开启技能与文件选择、监督、共享发现纠正、工具输出筛选、阶段导航及原生单次 workspace-write 提权审批路由。功能默认关闭；启用后的判断会将脱敏任务上下文发送给用户配置的 Jev 或 Luna 端点。 / Native DSH/Cordis TypeSafe Jev decision support; features are opt-in and default off.
+- [dsh-orquestrator](https://github.com/frederico-kluser/dsh-orquestrator) - 为子代理挑选运行模型——附带推理努力度上限与输出 token 上限——在代码层面对 DSH 启动的每一个子代理强制生效，无论由哪个工具启动（子代理工具、workflow 启动的 agent、ralph 轮次、一次性后台任务、agent 团队）；同时自带全局 agent 技能 `orchestrate-subagents`，并在任务页为每个子代理标注所用模型与状态。已在 DSH 0.1.6-alpha.2 上验证。 / Pick the model your subagents run on — with a reasoning-effort ceiling and an output-token cap — enforced in code on every child DSH starts, whichever tool starts it; ships the global `orchestrate-subagents` agent skill and marks each subagent on the task page with model and state. Tested with DSH 0.1.6-alpha.2.
 ## 贡献
 
 请阅读[中文贡献指南](CONTRIBUTING.zh.md)或[English guide](CONTRIBUTING.md)。提交条目时，请提供源码中 DSH 集成的具体证据。
