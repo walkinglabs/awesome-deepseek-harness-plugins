@@ -396,6 +396,7 @@ flowchart LR
 
 ## Interfaces & Web UI
 
+- [dsh-projectless](https://github.com/wqzhellohhwy/dsh-projectless) - Draft-safe blank sessions without a workspace, with date-based temporary directories and a recency-ordered sidebar. Its authenticated host endpoints provision and remove only validated projectless directories; optional diagnostics stay in a local temporary JSONL file.
 - [dsh-mobile](https://github.com/saya-ch/dsh-mobile) - Paired HTTPS access to the native DSH Web profile from Android or mobile browsers, with a dedicated mobile layout, separate LAN and optional Funnel/cpolar routes, and compatibility verified against DSH 0.1.1-rc.2.
 - [dsh-schematic](https://github.com/Mason-1011/dsh-schematic) - Live plugin-topology and activity viewer with a guarded composition workbench: edits are previewed, validated, backed up, and reversible; tested with DSH 0.1.0-rc.8.
 - [dsh-reasoning-effort](https://github.com/HanaAyane/dsh-reasoning-effort) - Codex-style session model and reasoning-effort selector that follows adapter-advertised levels, with read-only guidance for custom-provider declarations.
@@ -467,6 +468,7 @@ flowchart LR
 
 ## Utilities
 
+- [dsh-archive-cleanup](https://github.com/DengBr/dsh-archive-cleanup) - Lists archived sessions and provides a user-confirmed, destructive purge with dry-run preview. It checks archive membership and filesystem-root containment before removing session artifacts and projection caches.
 - [dsh-toolkit](https://github.com/omdsh-dev/dsh-toolkit) - Zero-dependency collection for time, encoding, JSON, calculation, CSV, regex, Markdown, diff, statistics, and schema tools.
 - [dsh-tool-time](https://github.com/omdsh-dev/dsh-tool-time) - ISO 8601, IANA timezone, UTC-calendar, and duration utilities.
 - [dsh-tool-json](https://github.com/omdsh-dev/dsh-tool-json) - Zero-dependency JMESPath-subset JSON querying.
