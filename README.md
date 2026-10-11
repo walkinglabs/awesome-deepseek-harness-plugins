@@ -468,6 +468,7 @@ flowchart LR
 
 ## Utilities
 
+- [dsh-deepseek-pricing](https://github.com/ybbms777/dsh-deepseek-pricing) - A local `deepseek_pricing_tier` tool that reports Beijing-time DeepSeek peak/off-peak billing windows, next switch, and its bundled rate-card data. It uses no API key or runtime network calls.
 - [dsh-archive-cleanup](https://github.com/DengBr/dsh-archive-cleanup) - Lists archived sessions and provides a user-confirmed, destructive purge with dry-run preview. It checks archive membership and filesystem-root containment before removing session artifacts and projection caches.
 - [dsh-toolkit](https://github.com/omdsh-dev/dsh-toolkit) - Zero-dependency collection for time, encoding, JSON, calculation, CSV, regex, Markdown, diff, statistics, and schema tools.
 - [dsh-tool-time](https://github.com/omdsh-dev/dsh-tool-time) - ISO 8601, IANA timezone, UTC-calendar, and duration utilities.

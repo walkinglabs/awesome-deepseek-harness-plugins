@@ -375,6 +375,7 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [dsh-orquestrator](https://github.com/frederico-kluser/dsh-orquestrator) - 为子代理挑选运行模型——附带推理努力度上限与输出 token 上限——在代码层面对 DSH 启动的每一个子代理强制生效，无论由哪个工具启动（子代理工具、workflow 启动的 agent、ralph 轮次、一次性后台任务、agent 团队）；同时自带全局 agent 技能 `orchestrate-subagents`，并在任务页为每个子代理标注所用模型与状态。已在 DSH 0.1.6-alpha.2 上验证。 / Pick the model your subagents run on — with a reasoning-effort ceiling and an output-token cap — enforced in code on every child DSH starts, whichever tool starts it; ships the global `orchestrate-subagents` agent skill and marks each subagent on the task page with model and state. Tested with DSH 0.1.6-alpha.2.
 - [dsh-projectless](https://github.com/wqzhellohhwy/dsh-projectless) - 无工作区、草稿安全的空白会话，带按日期创建的临时目录和按最近使用排序的侧栏；认证宿主端点只会创建或移除经过校验的 projectless 目录，可选诊断仅写入本地临时 JSONL。 / Draft-safe blank DSH sessions without a workspace.
 - [dsh-archive-cleanup](https://github.com/DengBr/dsh-archive-cleanup) - 列出已归档会话，并提供含 dry-run 预览、需要用户确认的破坏性清理；删除会话产物和投影缓存前会检查归档成员资格及文件系统根目录包含关系。 / User-confirmed destructive cleanup for archived DSH sessions.
+- [dsh-deepseek-pricing](https://github.com/ybbms777/dsh-deepseek-pricing) - 本地 `deepseek_pricing_tier` 工具：报告 DeepSeek API 的北京时间峰谷计费时段、下一次切换及随包费率表；不使用 API 密钥，也不在运行时发起网络请求。 / Local peak/off-peak billing-window and rate-card tool with no runtime network calls.
 ## 贡献
 
 请阅读[中文贡献指南](CONTRIBUTING.zh.md)或[English guide](CONTRIBUTING.md)。提交条目时，请提供源码中 DSH 集成的具体证据。
