@@ -376,6 +376,7 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [dsh-projectless](https://github.com/wqzhellohhwy/dsh-projectless) - 无工作区、草稿安全的空白会话，带按日期创建的临时目录和按最近使用排序的侧栏；认证宿主端点只会创建或移除经过校验的 projectless 目录，可选诊断仅写入本地临时 JSONL。 / Draft-safe blank DSH sessions without a workspace.
 - [dsh-archive-cleanup](https://github.com/DengBr/dsh-archive-cleanup) - 列出已归档会话，并提供含 dry-run 预览、需要用户确认的破坏性清理；删除会话产物和投影缓存前会检查归档成员资格及文件系统根目录包含关系。 / User-confirmed destructive cleanup for archived DSH sessions.
 - [dsh-deepseek-pricing](https://github.com/ybbms777/dsh-deepseek-pricing) - 本地 `deepseek_pricing_tier` 工具：报告 DeepSeek API 的北京时间峰谷计费时段、下一次切换及随包费率表；不使用 API 密钥，也不在运行时发起网络请求。 / Local peak/off-peak billing-window and rate-card tool with no runtime network calls.
+- [dsh-interactive-steps](https://github.com/sean050429/dsh-interactive-steps) - 添加 `interactive_steps` 工具及可在对话内点击的分步卡片，适合连续的计划、流程、迁移和排障说明；交互只在浏览器中进行，工具仅返回传入的步骤，不访问文件或网络。 / Clickable in-conversation stepper for sequential walkthroughs.
 ## 贡献
 
 请阅读[中文贡献指南](CONTRIBUTING.zh.md)或[English guide](CONTRIBUTING.md)。提交条目时，请提供源码中 DSH 集成的具体证据。

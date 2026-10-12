@@ -396,6 +396,7 @@ flowchart LR
 
 ## Interfaces & Web UI
 
+- [dsh-interactive-steps](https://github.com/sean050429/dsh-interactive-steps) - Adds an `interactive_steps` tool and a clickable, in-conversation stepper card for sequential plans, procedures, migrations, and troubleshooting. Interactions stay in the browser; the tool returns the supplied walkthrough without file or network access.
 - [dsh-projectless](https://github.com/wqzhellohhwy/dsh-projectless) - Draft-safe blank sessions without a workspace, with date-based temporary directories and a recency-ordered sidebar. Its authenticated host endpoints provision and remove only validated projectless directories; optional diagnostics stay in a local temporary JSONL file.
 - [dsh-mobile](https://github.com/saya-ch/dsh-mobile) - Paired HTTPS access to the native DSH Web profile from Android or mobile browsers, with a dedicated mobile layout, separate LAN and optional Funnel/cpolar routes, and compatibility verified against DSH 0.1.1-rc.2.
 - [dsh-schematic](https://github.com/Mason-1011/dsh-schematic) - Live plugin-topology and activity viewer with a guarded composition workbench: edits are previewed, validated, backed up, and reversible; tested with DSH 0.1.0-rc.8.
