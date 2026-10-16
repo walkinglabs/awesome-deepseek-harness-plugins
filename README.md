@@ -396,6 +396,7 @@ flowchart LR
 
 ## Interfaces & Web UI
 
+- [dsh-full-view](https://github.com/hankswang123/dsh-full-view) - Adds a Full View button to DSH Web assistant replies and opens the rendered turn content in a reading overlay; the client bundle uses conversation action and shell overlay slots.
 - [dsh-interactive-steps](https://github.com/sean050429/dsh-interactive-steps) - Adds an `interactive_steps` tool and a clickable, in-conversation stepper card for sequential plans, procedures, migrations, and troubleshooting. Interactions stay in the browser; the tool returns the supplied walkthrough without file or network access.
 - [dsh-projectless](https://github.com/wqzhellohhwy/dsh-projectless) - Draft-safe blank sessions without a workspace, with date-based temporary directories and a recency-ordered sidebar. Its authenticated host endpoints provision and remove only validated projectless directories; optional diagnostics stay in a local temporary JSONL file.
 - [dsh-mobile](https://github.com/saya-ch/dsh-mobile) - Paired HTTPS access to the native DSH Web profile from Android or mobile browsers, with a dedicated mobile layout, separate LAN and optional Funnel/cpolar routes, and compatibility verified against DSH 0.1.1-rc.2.
@@ -433,6 +434,7 @@ flowchart LR
 
 ## Developer Tooling
 
+- [dsh-har-triage](https://github.com/po-et/dsh-har-triage) - Offline HAR diagnostics tool and CLI that produce workspace-local HTML and JSON reports with endpoint aliases, timings, and status signals; reports omit request URLs, headers, query values, and bodies.
 - [dsh-compat-guardian](https://github.com/Han-1413141/dsh-compat-guardian) - Detect DSH plugin conflicts and loading failures, quarantine affected bundles and recover them, with offline startup rescue. Compatible with DSH 0.2.0-rc.2.
 - [dsh-llm-verifier](https://github.com/Web0926/dsh-llm-verifier) - Approval-gated best-of-3/5 coding-agent orchestration: isolated Git worktrees, host validation commands, an LLM verifier, and a separate winner-apply step with credential and process-output safeguards.
 - [DeepSeek Harness Brain](https://github.com/AgriciDaniel/deepseek-harness-brain) - Source-cited learning and development resource with a plain-English guide, Obsidian knowledge base, assistant skill, and portability guidance; reviewed against a pinned upstream DSH commit.

@@ -378,6 +378,8 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [dsh-deepseek-pricing](https://github.com/ybbms777/dsh-deepseek-pricing) - 本地 `deepseek_pricing_tier` 工具：报告 DeepSeek API 的北京时间峰谷计费时段、下一次切换及随包费率表；不使用 API 密钥，也不在运行时发起网络请求。 / Local peak/off-peak billing-window and rate-card tool with no runtime network calls.
 - [dsh-interactive-steps](https://github.com/sean050429/dsh-interactive-steps) - 添加 `interactive_steps` 工具及可在对话内点击的分步卡片，适合连续的计划、流程、迁移和排障说明；交互只在浏览器中进行，工具仅返回传入的步骤，不访问文件或网络。 / Clickable in-conversation stepper for sequential walkthroughs.
 - [skyjjgw/dsh-version-guard](https://github.com/skyjjgw/dsh-version-guard) - 记录插件版本与 profile 配置快照，在 DSH 无法启动时通过独立恢复页回退到已知可用配置。 通过 DSH bundle 与 Cordis webServer 接缝加载，具体宿主版本兼容性尚未验证。 / Snapshots plugin versions and profile configuration, with an independent recovery page to restore a known-good configuration when DSH cannot start. DSH Web/Cordis integration; host-version compatibility is unverified.
+- [dsh-full-view](https://github.com/hankswang123/dsh-full-view) - 在 DSH Web 的助手回复上添加 Full View 按钮，将已渲染的当前轮内容显示在阅读浮层；客户端使用对话操作区和浮层插槽。
+- [dsh-har-triage](https://github.com/po-et/dsh-har-triage) - 离线 HAR 诊断工具和 CLI，在工作区生成 HTML 与 JSON 报告，显示匿名端点、耗时和状态信号；报告省略请求 URL、请求头、查询值与正文。
 ## 贡献
 
 请阅读[中文贡献指南](CONTRIBUTING.zh.md)或[English guide](CONTRIBUTING.md)。提交条目时，请提供源码中 DSH 集成的具体证据。
