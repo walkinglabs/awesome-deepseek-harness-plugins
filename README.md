@@ -235,6 +235,7 @@ DSH provides a hierarchy-oriented delegation surface and workflow components; pr
 
 ## Install and Discover Plugins
 
+- [dsh-plugin-index](https://github.com/ymck-x/dsh-plugin-index) - In-DSH plugin index that trusts only the `dsh.bundle.patch` field in `package.json`: 10,000+ verified third-party plugins, one-click install, plus a companion website. Verified against the DSH developer preview (2026-10).
 - [GitHub topic: `dsh-plugin`](https://github.com/topics/dsh-plugin) - The official recommended GitHub topic for DSH plugin repositories.
 - [Plugin registry](https://github.com/vlln/plugin-registry) - A lightweight repository-plugin console and `make-dsh-plugin` development guide.
 - [Plugin workshop](https://github.com/omdsh-dev/dsh-hub-workshop) - Community plugin-marketplace and registry workshop.
@@ -297,6 +298,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) - Versioned, auditable, rollback-safe harness state (prompt notes, memories, skills, subagent specs) refined from session trajectories; verified against DSH 0.1.0-rc.6.
 - [dsh-darwin](https://github.com/que3sui/dsh-darwin) - Two-plugin self-evolution: mines session logs into problem tickets (retry loops, tool-error clusters, interruptions, token waste), then synthesizes skills behind an eval gate with deterministic rollback; verified against DSH 0.1.1-rc.2 on Windows.
 - [dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) - Per-session and daily API cost, budget, and official-balance tracking for the DSH Web UI, with a history dashboard and one-click official price sync (built against the current dsh web bundle).
+- [dsh-session-continuity](https://github.com/ymck-x/dsh-session-continuity) - Injects a small continuity pointer at the start of a new session (previous session, handoff file) and reuses DSH's own compaction summary when there is no handoff file; it calls no model. Requires `sessionQuery` and the `agent/pre-step` waterfall, verified on DSH 0.2.0-rc.2.
 - [dsh-sieve](https://github.com/Sev7eEn7/sieve) - Filters tool outputs, prunes stale context and discloses skills on demand for DSH 0.2.1-alpha.1.
 - [dsh-web-billing](https://github.com/bpc-oss/dsh-web-billing) - RMB/USD token-billing plugin for DeepSeek Harness: official-policy auto pricing (incl. peak/off-peak), per-provider billing (usage/subscription/free-ride/local), source-grouped cost page with time ranges, budget, account balance, and CSV/JSON export.
 - [TokenLedger](https://github.com/zh667/TokenLedger) - Local token-usage accounting by relay site, project, and model, with balance and subscription-quota panels; compatible with DSH 0.1.0-rc.6 and later.
@@ -446,6 +448,7 @@ flowchart LR
 - [dsh-plugin-skills](https://github.com/omdsh-dev/dsh-plugin-skills) - Agent skills for scaffolding and testing DSH plugins.
 - [dsh-plugin-dev](https://github.com/omdsh-dev/dsh-plugin-dev) - Practical plugin-development notes on Cordis, TypeScript, Windows junctions, and sessions.
 - [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) - Read-only plugin repository health checks for manifests, patches, and build pitfalls.
+- [dsh-skill-starter](https://github.com/ymck-x/dsh-skill-starter) - Skill manager with 6 built-in skills and a 20-skill Chinese engineering pack (requirements grilling, ticketing, TDD, two-axis code review, retro); registers a `ctx.skills` provider and a settings panel, and never overwrites files you edited on upgrade. Verified against the DSH developer preview (2026-10).
 - [echocat-skill-panel-3.0](https://github.com/VDERR/dsh-echocat-skill-panel) - Per-turn DSH skill-use audit and in-app manager. Its authenticated, opt-in panel can install, update, rename, and uninstall skills with staged writes and backups; optional release checks contact npm and GitHub only on user action.
 - [dsh-cert-mcp](https://github.com/PerryLink/dsh-cert-mcp) - Read-only DSH tool bundle and MCP server for looking up public plugin-certification grades, snapshots, and supporting evidence; installs via the `dsh.bundle` manifest (npm `dsh-cert-mcp`).
 - [dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide) - Plugin-development knowledge base as an on-demand agent skill plus the `dsh-plugin-dev` CLI toolchain; installs via the `dsh.bundle` manifest (npm `dsh-plugin-guide`), maintained on the dsh-v0.1.5-rc.2 host line.
