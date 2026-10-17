@@ -331,6 +331,8 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 
 
 - [dsh-maze](https://github.com/lamost423/dsh-maze) - Execution maze for DSH sessions: main path, detours and backtracks on one timeline with per-step data tracks (tool calls, tokens, context pressure), a deterministic analysis section (outcome evidence, behavior signals, context composition) and side-by-side comparison of up to five sessions; reads v0/v3/v4 session logs and also renders live inside a session tab. Verified against DSH 0.1.5 / 0.1.7 / 0.2.0-rc.2; current release 2.4.0 (npm `dsh-maze`).
+- [dsh-visual-memory](https://github.com/xiciyang/dsh-visual-memory) - Lossless visual memory for DSH agents: verbatim sha256-addressed image storage via `ctx.attachments`, an attention ledger with drawn overlays, labelled multi-view comparison sheets, and exact pixel reads; the bundle declares `dsh.bundle.patch` plus `engines.dsh` and is verified against DSH 0.2.0-rc.2 (`verify.mjs` 11/11).
+
 ## Tools, Integrations & Automation
 - [dsh-jev-plugin](https://github.com/luobosibing2/dsh-jev-plugin) - Native DSH/Cordis integration for TypeSafe Jev decision support: opt-in skill and file selection, supervision, shared-finding correction, tool-output filtering, stage navigation, and native one-time workspace-write approval routing. Features default off; enabled judgments send redacted task context to the user-configured Jev or Luna endpoint.
 - [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) - Complete reverse-skill pack (85 SKILL.md) as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router.
