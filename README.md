@@ -357,6 +357,8 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel) - Read-only runtime management panel for the official DSH MCP client: connection status, registered tools, errors, and reconnect counts through the /mcp command and a Settings tab, with sanitized display and enable/disable patch suggestions. Declares compatibility with DSH 0.1.6-alpha.2.
 - [dsh-talk](https://github.com/PerryLink/dsh-talk) - Voice I/O for DeepSeek Harness — speech-to-text and text-to-speech over the microphone and audio output. Declares compatibility with DSH 0.1.6-alpha.2.
 
+- [inference-serving](https://github.com/xiciyang/inference-serving) - Deploy a checkpoint as a reachable endpoint with failure as a first-class outcome: environment probe, backend selection, three-stage health check, registration, automatic degradation (memory quota → concurrency → precision → port), rollback and teardown, all recorded in a hash-chained audit log; declares `dsh.bundle.patch` plus `engines.dsh` and is verified against DSH 0.2.0-rc.2 (154 tests).
+
 ## Design & Creative Tools
 
 DSH design plugins can connect an agent's planning and tool use to visual inspection, canvas editing, generated UI, and image workflows. As with every listing here, install only after reviewing the source and its permissions.
