@@ -380,6 +380,7 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [skyjjgw/dsh-version-guard](https://github.com/skyjjgw/dsh-version-guard) - 记录插件版本与 profile 配置快照，在 DSH 无法启动时通过独立恢复页回退到已知可用配置。 通过 DSH bundle 与 Cordis webServer 接缝加载，具体宿主版本兼容性尚未验证。 / Snapshots plugin versions and profile configuration, with an independent recovery page to restore a known-good configuration when DSH cannot start. DSH Web/Cordis integration; host-version compatibility is unverified.
 - [dsh-full-view](https://github.com/hankswang123/dsh-full-view) - 在 DSH Web 的助手回复上添加 Full View 按钮，将已渲染的当前轮内容显示在阅读浮层；客户端使用对话操作区和浮层插槽。
 - [dsh-har-triage](https://github.com/po-et/dsh-har-triage) - 离线 HAR 诊断工具和 CLI，在工作区生成 HTML 与 JSON 报告，显示匿名端点、耗时和状态信号；报告省略请求 URL、请求头、查询值与正文。
+- [dsh-connect-minimaxcode](https://github.com/JeffTsuiCUG/dsh-connect-minimaxcode) - 把本机已登录的 MiniMax Code 桌面 App（国内版）接入 DSH 作为 Anthropic Messages 兼容提供方，带动态模型目录，并在对话框底部与插件页面显示积分余额与到期信息；非官方插件，依赖 MiniMax 客户端的非公开接口，只读取本机登录态，仅供学习研究；声明兼容 DSH 0.1.7-rc.1 至 0.3.0。 / Connects the models of a locally installed and signed-in MiniMax Code desktop app (CN build) to DSH as an Anthropic Messages compatible provider, with a live model catalog and a credit balance with expiry details; unofficial plugin on MiniMax's undocumented client interfaces, reads only the local sign-in, for study and research only.
 ## 贡献
 
 请阅读[中文贡献指南](CONTRIBUTING.zh.md)或[English guide](CONTRIBUTING.md)。提交条目时，请提供源码中 DSH 集成的具体证据。
