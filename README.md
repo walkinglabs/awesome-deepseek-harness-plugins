@@ -333,6 +333,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 
 
 - [dsh-maze](https://github.com/lamost423/dsh-maze) - Execution maze for DSH sessions: main path, detours and backtracks on one timeline with per-step data tracks (tool calls, tokens, context pressure), a deterministic analysis section (outcome evidence, behavior signals, context composition) and side-by-side comparison of up to five sessions; reads v0/v3/v4 session logs and also renders live inside a session tab. Verified against DSH 0.1.5 / 0.1.7 / 0.2.0-rc.2; current release 2.4.0 (npm `dsh-maze`).
+- [knowledge_database](https://github.com/lo2589/knowledge_database) - Click a sentence in a chat to make it a card in a knowledge-tree sidebar tab; Ctrl-drag merges several sentences into one card, every card links back to its source sentence, and the tree exports to Markdown, Mermaid, JSON, or PDF. Needs the repo's Python 3.11 + FastNode setup (`setup.sh`). Tested on DSH 0.1.2-alpha.4.
 ## Tools, Integrations & Automation
 - [dsh-jev-plugin](https://github.com/luobosibing2/dsh-jev-plugin) - Native DSH/Cordis integration for TypeSafe Jev decision support: opt-in skill and file selection, supervision, shared-finding correction, tool-output filtering, stage navigation, and native one-time workspace-write approval routing. Features default off; enabled judgments send redacted task context to the user-configured Jev or Luna endpoint.
 - [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) - Complete reverse-skill pack (85 SKILL.md) as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router.
@@ -358,6 +359,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-talk](https://github.com/PerryLink/dsh-talk) - Voice I/O for DeepSeek Harness — speech-to-text and text-to-speech over the microphone and audio output. Declares compatibility with DSH 0.1.6-alpha.2.
 
 - [inference-serving](https://github.com/xiciyang/inference-serving) - Deploy a checkpoint as a reachable endpoint with failure as a first-class outcome: environment probe, backend selection, three-stage health check, registration, automatic degradation (memory quota → concurrency → precision → port), rollback and teardown, all recorded in a hash-chained audit log; declares `dsh.bundle.patch` plus `engines.dsh` and is verified against DSH 0.2.0-rc.2 (154 tests).
+- [deepseek-harness-media](https://github.com/lo2589/deepseek-harness-media) - Composer-bar buttons for DSH Web: switch model providers (GLM, MiniMax, OpenAI, Claude, local Ollama) without editing YAML, take screenshots, upload images/SVG/text files, send images to a vision model, plus a session media panel and history search. Tested on DSH 0.1.2-alpha.4.
 
 ## Design & Creative Tools
 
