@@ -359,6 +359,8 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 
 - [inference-serving](https://github.com/xiciyang/inference-serving) - Deploy a checkpoint as a reachable endpoint with failure as a first-class outcome: environment probe, backend selection, three-stage health check, registration, automatic degradation (memory quota → concurrency → precision → port), rollback and teardown, all recorded in a hash-chained audit log; declares `dsh.bundle.patch` plus `engines.dsh` and is verified against DSH 0.2.0-rc.2 (154 tests).
 
+- [inference-quantization](https://github.com/xiciyang/inference-quantization) - Quantization with a verdict: de-leaked dataset preparation, AWQ/INT4 via llm-compressor in a container (source checkpoint mounted read-only), accuracy comparison against a fixed eval set, and an explicit failure when the tolerance is missed; declares `dsh.bundle.patch` plus `engines.dsh`, verified against DSH 0.2.0-rc.2 (146 tests).
+
 ## Design & Creative Tools
 
 DSH design plugins can connect an agent's planning and tool use to visual inspection, canvas editing, generated UI, and image workflows. As with every listing here, install only after reviewing the source and its permissions.
