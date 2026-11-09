@@ -363,7 +363,7 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [dsh-fast](https://github.com/PerryLink/dsh-fast) - DeepSeek Harness 的性能剖析与 LLM 缓存诊断——上下文工程、延迟剖析和缓存行为报告。声明兼容 DSH 0.1.6-alpha.2。
 - [dsh-fund-research](https://github.com/PerryLink/dsh-fund-research) - 面向中国公募基金的确定性研究报告，基于公开来源数据（天天基金和东方财富）构建，采用纯函数指标（业绩分解、持仓穿透、风格归因、经理画像），并提供带逐项数字快照可追溯附录的版本化报告。声明兼容 DSH 0.1.6-alpha.2。
 - [dsh-github](https://github.com/PerryLink/dsh-github) - 官方级 GitHub CI 集成：复合 action.yml、带幂等行内评论和状态检查门禁的轮询式 PR 审查机器人，以及所有写入都由人工审批门控的 PR/issue 工具。声明兼容 DSH 0.1.6-alpha.2。
-- [dsh-immersive-reader](https://github.com/UncertaintyDeterminesYou4ndMe/dsh-immersive-reader) - 在 DSH Web / 桌面版侧栏里用中文读外文原版书：导入 EPUB、TXT、Markdown、HTML 或网页链接，按章节经宿主配置的模型（`ctx.llm`）精译并缓存，提供原文 / 双语视图、段落追问、划线笔记、导读式阅读份、朗读、Markdown 导出及 `reader_*` agent 工具。在 DSH 0.2.2-rc.1 上测试；声明兼容 `>=0.2.0-rc.1 <0.3.0-0`。
+- [dsh-reading-room](https://github.com/UncertaintyDeterminesYou4ndMe/dsh-reading-room) - 在 DSH Web / 桌面版侧栏里用中文读外文原版书：导入 EPUB、TXT、Markdown、HTML 或网页链接，按章节经宿主配置的模型（`ctx.llm`）精译并缓存，提供原文 / 双语视图、段落追问、划线笔记、导读式阅读份、朗读、Markdown 导出及 `reader_*` agent 工具。在 DSH 0.2.2-rc.1 上测试；声明兼容 `>=0.2.0-rc.1 <0.3.0-0`。
 - [dsh-industry-research](https://github.com/PerryLink/dsh-industry-research) - DeepSeek Harness 的确定性行业研究报告——公司与行业研究流程基于分阶段证据生成结构化、可验证的报告。声明兼容 DSH 0.1.6-alpha.2。
 - [dsh-library](https://github.com/PerryLink/dsh-library) - 将本地 markdown 与文本文档转化为可查询的知识库，支持语义与关键词混合检索、引用校验和来源注入。声明兼容 DSH 0.1.6-alpha.2。
 - [dsh-local-ai](https://github.com/PerryLink/dsh-local-ai) - DeepSeek Harness 的 Ollama 提供方，支持模型管理、健康检查、基于规则的本地路由和云端回退。声明兼容 DSH 0.1.6-alpha.2。
