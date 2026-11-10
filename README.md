@@ -472,6 +472,7 @@ flowchart LR
 - [dsh-phone-inbox](https://github.com/PerryLink/dsh-phone-inbox) - Lists the attachments the current session actually received through the WeChat bridge and adopts one into the workspace on demand. Its documented `auto` write path can fall back to direct Node filesystem writes after the host fs service refuses; select the `fs` channel to require host fs sandbox enforcement. Declares compatibility with DSH 0.2.1-0 to 0.3.0.
 - [dsh-community-bench](https://github.com/PerryLink/dsh-community-bench) - Adds a Community Bench tab that reads the public task-conditioned registry and shows the same score everyone sees; it does not compute a local score. Declares compatibility with DSH 0.2.1-0 to 0.3.0.
 - [dsh-mindmap-live](https://github.com/SSShooter/dsh-mindmap-live) - Adds a live, bidirectional mind map to DSH Web built on Mind Elixir: the agent and the user edit the same tree in real time in a docked panel or fullscreen, with PNG export and open-in-desktop. Declares a dsh.bundle manifest; peer dependencies declare @deepseek-ai/dsh-client-runtime ^0.1.1-rc.2.
+- [dsh-artifacts](https://github.com/modusensus/dsh-artifacts) - Sidebar artifact shelf that collects the images, videos, files and links a session delivers into one panel, deduplicated by SHA-256 content hash, with five filter tabs and counts, keyword search, video thumbnails, a lightbox, manual link saving, image paste, uploads up to 25 MB, and a one-time backfill of past session logs. Verified against DSH 0.2.2-rc.1.
 
 ## Developer Tooling
 
