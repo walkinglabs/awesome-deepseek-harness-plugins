@@ -419,6 +419,7 @@ flowchart LR
 ## Browser, Computer Use & Remote Execution
 
 - [dsh-codex-computer-use](https://github.com/Han-1413141/dsh-codex-computer-use) - Let a DSH model inspect and operate Windows applications through an installed Codex Computer Use runtime, with per-session app approval. Compatible with DSH 0.2.0-rc.2.
+- [dsh-remote](https://github.com/flymysql/dsh-remote) - SSH remote workspaces for DSH with parallel projects across hosts, file browsing and editing, recursive search, terminals, Git diffs, and Agent tools to edit, build and test remotely. Optional IDE layout. Tested with DSH Web 0.2.1-rc.5 and 0.2.2-rc.1.
 - [dsh-wsl-native](https://github.com/Han-1413141/dsh-wsl-native) - Use Windows and native Linux DSH sessions in one Windows window, with WSL environment switching and bidirectional system tools. Compatible with DSH 0.2.0-rc.2.
 - [Tabbit Browser for DSH](https://github.com/Tabbit-Browser/dsh-tabbit) - Browser-automation skill with an explicit tool that can download the region-appropriate Tabbit Browser installer when the supported browser is absent or outdated.
 - [ego-browser](https://github.com/Fisfzy/dsh-ego-browser) - Chromium agent browser with semantic snapshots, controls, screenshots, CDP, and isolated workspaces.
