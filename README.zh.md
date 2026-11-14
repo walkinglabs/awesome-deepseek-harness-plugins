@@ -271,6 +271,7 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 
 ### 近期通过核验的新增 / Recently verified additions
 
+- [dsh-remote](https://github.com/flymysql/dsh-remote) - DSH 的 SSH 远程工作区：多主机项目并行、文件浏览与编辑、递归搜索、终端、Git 差异，以及 Agent 远程编辑、构建与测试；可选 IDE 布局。 已验证 DSH Web 0.2.1-rc.5 与 0.2.2-rc.1。
 - [Linen theme](https://github.com/Chuyuxuan0v0/deepseek-harness-theme-linen) - DSH Web 暖中性主题，可调圆角、正文与代码字体栈及强调字重。通过 `dsh.bundle.patch` 安装，使用原生主题覆盖与设置接口，将保存在 Host 的配置实时应用到界面。需要标准 Web 的 theme、slots、configForms、locale 服务；具体宿主版本兼容性尚未验证。
 
 - [dsh-llm-llamacpp](https://github.com/slaren/dsh-llm-llamacpp) - 通过 `llm.registerAdapter` 将用户配置的 llama.cpp 服务接成 DSH 模型提供方：发现模型与上下文信息、流式返回结果，并在 Web 界面可选显示实时吞吐、slot 与 KV 缓存数据。API Key 从 DSH 凭据或启动环境中读取，仅发送至配置的服务；bundle 不负责启动 `llama-server`。可从 GitHub 或本地检出安装（不发布到 npm）；作者报告在 DSH 0.2.x 上测试。
