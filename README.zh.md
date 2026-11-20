@@ -413,6 +413,7 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [dsh-phone-inbox](https://github.com/PerryLink/dsh-phone-inbox) - 列出当前会话通过微信桥实际收到的附件，并按需将其中一个采纳到工作区。文档说明默认 `auto` 写入可在宿主文件服务拒绝后回退为 Node 直接写入；若要求宿主文件沙箱约束，应选择 `fs` 通道。声明兼容 DSH 0.2.1-0 至 0.3.0。 / Session attachment inbox; auto writes may fall back to Node after host fs refusal. Use the fs channel to require host fs sandbox enforcement.
 - [dsh-community-bench](https://github.com/PerryLink/dsh-community-bench) - 增加社区基准标签页，读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地计算分数。声明兼容 DSH 0.2.1-0 至 0.3.0。 / Community Bench tab backed by the public task-conditioned registry; no local scoring.
 - [dsh-mindmap-live](https://github.com/SSShooter/dsh-mindmap-live) - 为 DSH Web 增加实时双向思维导图，基于 Mind Elixir：Agent 与用户共编同一棵树，改动即时互相同步，支持停靠分屏与全屏两种视图，并支持 PNG 导出和在桌面应用中打开。通过 dsh.bundle 清单安装。 / Adds a live, bidirectional mind map to DSH Web built on Mind Elixir, with docked and fullscreen views, PNG export and open-in-desktop; installs via a dsh.bundle manifest.
+- [Biz Assistant](https://github.com/ITC-cloud-soft/biz-ai) - 基于 `@dsh-bridge/dsh-core` 的 9 个 DSH 插件，通过带版本的 HTTP 桥（Bridge v1，OpenAPI 3.1）和 manifest 把 DSH agent 接入业务系统：按员工绑定身份、由 manifest 生成只读工具、事件、通知、审批卡片、记忆与文档读取，都在员工自己的聊天工具里进行。Agent 的写入只能是由人接受的提案，委托不能写入。附带 52 项业务侧一致性测试。各包声明 `dsh.bundle.patch`，通过 profile 模板连同产品设置一起安装；已在 DSH 0.2.2-rc.1 上测试。Apache-2.0。 / DSH plugins that connect an agent to a business system via a versioned bridge; people approve, the agent proposes.
 
 ## 贡献
 
