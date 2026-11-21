@@ -413,6 +413,7 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [dsh-phone-inbox](https://github.com/PerryLink/dsh-phone-inbox) - 列出当前会话通过微信桥实际收到的附件，并按需将其中一个采纳到工作区。文档说明默认 `auto` 写入可在宿主文件服务拒绝后回退为 Node 直接写入；若要求宿主文件沙箱约束，应选择 `fs` 通道。声明兼容 DSH 0.2.1-0 至 0.3.0。 / Session attachment inbox; auto writes may fall back to Node after host fs refusal. Use the fs channel to require host fs sandbox enforcement.
 - [dsh-community-bench](https://github.com/PerryLink/dsh-community-bench) - 增加社区基准标签页，读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地计算分数。声明兼容 DSH 0.2.1-0 至 0.3.0。 / Community Bench tab backed by the public task-conditioned registry; no local scoring.
 - [dsh-mindmap-live](https://github.com/SSShooter/dsh-mindmap-live) - 为 DSH Web 增加实时双向思维导图，基于 Mind Elixir：Agent 与用户共编同一棵树，改动即时互相同步，支持停靠分屏与全屏两种视图，并支持 PNG 导出和在桌面应用中打开。通过 dsh.bundle 清单安装。 / Adds a live, bidirectional mind map to DSH Web built on Mind Elixir, with docked and fullscreen views, PNG export and open-in-desktop; installs via a dsh.bundle manifest.
+- [dsh-squeeze](https://github.com/q8atnight/dsh-squeeze) - 新增 `squeeze` 工具：把长网页、多个网页、文本文件或文本 PDF 连同一个问题交给设置页选定的辅助模型（最多三个，可选回退），只返回答案，原文不进入主上下文。通过 `dsh.bundle` 清单安装（GitHub Release tarball），需要 DSH 0.2.1-rc.5 或更新版本。 / Adds a `squeeze` tool that reads long pages, files and PDFs with a chosen helper model and returns only the answer.
 
 ## 贡献
 
