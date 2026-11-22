@@ -315,6 +315,10 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-pleading-draft](https://github.com/PerryLink/dsh-pleading-draft) - Check a pleading-element checklist for completeness and internal consistency — you get a list of which row, which column, and what to fix; the verdict stays with the reviewer.
 - [dsh-policy-brief-draft](https://github.com/PerryLink/dsh-policy-brief-draft) - Check a policy brief element by element — completeness and data freshness — and get back which row, which column and what is missing, with the verdict left to the reviewer.
 - [dsh-protest-deadline](https://github.com/PerryLink/dsh-protest-deadline) - Turn the gaps and out-of-order dates in a query-and-complaint register into a row-by-row list of what is missing — the verdict stays with the reviewer.
+- [dsh-ar-aging](https://github.com/PerryLink/dsh-ar-aging) - Turn an AR ledger CSV into an aging report: buckets, customer summary, overdue ratio and top overdue customers, then export CSV.
+- [dsh-ar-collection](https://github.com/PerryLink/dsh-ar-collection) - Turn a receivables CSV into a prioritized collection plan, Chinese collection-letter drafts and a collection-list CSV — fully local, never online, never sent.
+- [dsh-progress-payment](https://github.com/PerryLink/dsh-progress-payment) - Confirm this period's progress payment against the contract baseline: integer-cent amounts, cumulative ratio, over-quantity/price/duplicate issue list → review worksheet CSV.
+- [dsh-rfq-compare](https://github.com/PerryLink/dsh-rfq-compare) - Put several suppliers' quotes for the same materials into one table: who is cheapest, by how much, how fast, and which quote is below cost, over budget, or already expired.
 
 ## Context, Memory & Observability
 
@@ -467,6 +471,12 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-power-loss-split](https://github.com/PerryLink/dsh-power-loss-split) - One metering period of line-loss figures, checked in one pass: which row does not close, by how much, and what to fix.
 - [dsh-soilwater-check](https://github.com/PerryLink/dsh-soilwater-check) - Check a soil and groundwater monitoring register for completeness and arithmetic consistency — you get a list of which row, which column, and what to fix; the verdict stays with the reviewer.
 - [dsh-sop-sync-check](https://github.com/PerryLink/dsh-sop-sync-check) - Line up a works-instruction register with the PFMEA and control plan it cites — and get told which row, which column, and what differs.
+- [dsh-attendance-check](https://github.com/PerryLink/dsh-attendance-check) - Turn a punch-clock CSV into per-employee daily hours, overtime, over-limit days, missing punches and short breaks, then roll the month up and export a reconciliation CSV.
+- [dsh-contract-renewal](https://github.com/PerryLink/dsh-contract-renewal) - Register contracts → see expired / renewal-window / soon-due exposure as of a date → export CSV.
+- [dsh-import-customs-check](https://github.com/PerryLink/dsh-import-customs-check) - Cross-check the four import documents field by field, then list the customs declaration's missing 12 elements.
+- [dsh-labor-contract](https://github.com/PerryLink/dsh-labor-contract) - Turn one labor-contract text and one employee CSV into a reviewable issue list: missing required clauses, an over-cap probation, probation pay below 80%, and contracts expired or expiring soon — then export the list as CSV.
+- [dsh-settlement-docs](https://github.com/PerryLink/dsh-settlement-docs) - Check a construction final-settlement document checklist against what was actually submitted — missing documents, short copies, missing signatures/stamps, optional documents absent → a review worksheet CSV.
+- [dsh-store-replenish](https://github.com/PerryLink/dsh-store-replenish) - Turn a store-SKU sales/inventory CSV into per-SKU replenishment suggestions, per-store replenishment orders and a replenishment CSV.
 
 ## Design & Creative Tools
 
