@@ -234,6 +234,7 @@ DSH provides a hierarchy-oriented delegation surface and workflow components; pr
 - [DeepSeek Harness Discord](https://discord.gg/UZ7VEPkDUn) - Community chat linked by the official repository.
 
 ## Install and Discover Plugins
+- [wwewtech/numes-deepseek-harness](https://github.com/wwewtech/numes-deepseek-harness) - Free Numes models in DeepSeek Harness: zero-dependency local proxy with a hard `$0` route (`:free` + `max_price` guards), never-give-up retries (5s to 5m), auto-discovery, and paid-model protection. Note: the bundle patch replaces the existing `llm-pi-ai` config rather than merging provider entries; users with custom providers should back up `cordis.patch.yml` before installation.
 
 - [dsh-plugin-index](https://github.com/ymck-x/dsh-plugin-index) - In-DSH plugin index that trusts only the `dsh.bundle.patch` field in `package.json`: 10,000+ verified third-party plugins, one-click install, plus a companion website. Verified against the DSH developer preview (2026-10).
 - [GitHub topic: `dsh-plugin`](https://github.com/topics/dsh-plugin) - The official recommended GitHub topic for DSH plugin repositories.
