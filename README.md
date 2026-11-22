@@ -299,6 +299,11 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-lit-watch](https://github.com/PerryLink/dsh-lit-watch) - Literature watch for DeepSeek Harness: save named Crossref bibliographic queries with time windows, run them with a bounded client, keep a seen-DOI store so repeated runs return only genuinely new items, and render a Markdown digest plus SARIF.
 - [dsh-dida](https://github.com/PerryLink/dsh-dida) - TickTick / Dida365 task bridge for DeepSeek Harness: a session-header task panel, agent tools and a settings card.
 - [dsh-dmp](https://github.com/PerryLink/dsh-dmp) - Data-management-plan tooling for DeepSeek Harness: a ten-section scaffold with prompts and completeness/consistency checks (datasets, personal data, sharing, retention, backup, repository/license/DOI, contact), plus Markdown/JSON/SARIF export. Checks are internal consistency checks, not funder-template certification.
+- [dsh-ap-three-way](https://github.com/PerryLink/dsh-ap-three-way) - Accounts-payable three-way match: import invoices, purchase orders and goods receipts, apply the tolerance policy and export the exception workpaper — 4 `ap.*` tools.
+- [dsh-einvoice](https://github.com/PerryLink/dsh-einvoice) - Chinese e-invoice (OFD/XML) inbox: ingest, parse, deduplicate, queue for review, record receipts and archive locally — 10 `invoice.*` tools, nothing uploaded.
+- [dsh-legal-intake](https://github.com/PerryLink/dsh-legal-intake) - Legal request intake: read requests out of EML, deduplicate threads and export the intake ledger — 2 `legal.*` tools.
+- [dsh-ota-review-check](https://github.com/PerryLink/dsh-ota-review-check) - OTA guest-review reply ledger check: content and score, reply deadlines, responder, issue category and duplicate review ids.
+- [dsh-travel-recon](https://github.com/PerryLink/dsh-travel-recon) - Travel expense reconciliation: ingest orders, invoices and card lines, deduplicate, run the three-way match and a read-only policy check, then export — 5 `travel.*` tools.
 
 ## Context, Memory & Observability
 
@@ -411,6 +416,11 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-repro-audit](https://github.com/PerryLink/dsh-repro-audit) - Reproducibility evidence for DeepSeek Harness: a bounded read-only scan records the git commit and dirty state, dependency lockfiles, environment pins, input-data and figure hashes, notebooks, explicit seeds and runnable commands, derives gap severities and a reproducible/partial/not_reproducible level, and compares a recorded manifest against the current tree.
 - [dsh-bankrec](https://github.com/PerryLink/dsh-bankrec) - Bank statement reconciliation: ingest CAMT.053 and MT940, match them against ledger entries and export the workpaper — 6 `bankrec.*` tools.
 - [dsh-image-integrity](https://github.com/PerryLink/dsh-image-integrity) - Image integrity checks for DeepSeek Harness: zero-dependency PNG decoding with mean-threshold block fingerprints and NCC confirmation to find duplicated or mirrored regions inside one figure or shared between two figures, plus REP evidence and Markdown/SARIF reports. It finds reused pixels, not manipulation intent.
+- [dsh-aqua-input-check](https://github.com/PerryLink/dsh-aqua-input-check) - Aquaculture input register completeness and withdrawal-period date check: deterministic findings with rule IDs.
+- [dsh-evidence-check](https://github.com/PerryLink/dsh-evidence-check) - Evidence-list completeness check: maps facts to evidence and reports gaps with rule IDs.
+- [dsh-fmea-table-check](https://github.com/PerryLink/dsh-fmea-table-check) - Checks an FMEA worksheet for element completeness and for the arithmetic that follows from it - severity, occurrence and detection against the resulting risk priority number - following published FMEA method standards. Reports inconsistencies; it does not judge whether the ratings themselves are appropriate.
+- [dsh-medrec-qc](https://github.com/PerryLink/dsh-medrec-qc) - Checks a medical-record front sheet for field completeness and for internal logical contradictions between its fields, against 国卫办医发〔2016〕24号 and other published documents. Lists what is missing or inconsistent for a human to review; it does not assess clinical correctness.
+- [dsh-tender-matrix](https://github.com/PerryLink/dsh-tender-matrix) - Checks a bid evaluation scoring matrix for internal arithmetic consistency: that each factor's maximum, the scores recorded and the total agree with each other. Reports the differences it finds; it does not judge whether the evaluation itself was correct or fair.
 
 ## Design & Creative Tools
 
