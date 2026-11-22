@@ -313,6 +313,8 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-bid-ca-precheck](https://github.com/PerryLink/dsh-bid-ca-precheck) - Check a bid compliance response register for completeness and internal consistency — get a list of what is inconsistent, where, and what to fix; the verdict stays with the evaluation committee.
 - [dsh-bid-qual-check](https://github.com/PerryLink/dsh-bid-qual-check) - Walk a bidder qualification condition register row by row and point at exactly which row and column do not close the loop.
 - [dsh-pleading-draft](https://github.com/PerryLink/dsh-pleading-draft) - Check a pleading-element checklist for completeness and internal consistency — you get a list of which row, which column, and what to fix; the verdict stays with the reviewer.
+- [dsh-policy-brief-draft](https://github.com/PerryLink/dsh-policy-brief-draft) - Check a policy brief element by element — completeness and data freshness — and get back which row, which column and what is missing, with the verdict left to the reviewer.
+- [dsh-protest-deadline](https://github.com/PerryLink/dsh-protest-deadline) - Turn the gaps and out-of-order dates in a query-and-complaint register into a row-by-row list of what is missing — the verdict stays with the reviewer.
 
 ## Context, Memory & Observability
 
@@ -458,6 +460,13 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-origin-rvc-check](https://github.com/PerryLink/dsh-origin-rvc-check) - Check an origin determination register line by line — RVC arithmetic and declaration fields — and get back a list of what is inconsistent, where, and what to fix.
 - [dsh-paper-doc-adapter](https://github.com/PerryLink/dsh-paper-doc-adapter) - Reports every mismatch in a parsed exam paper — which row, which field, what is off.
 - [dsh-soe-decision-check](https://github.com/PerryLink/dsh-soe-decision-check) - Turn one “three-important-and-one-large” decision register into a list of what is inconsistent, where, and what to fix — differences only, never a compliance verdict.
+- [dsh-drill-script-check](https://github.com/PerryLink/dsh-drill-script-check) - Turn one emergency drill script into a difference list — which row, which column, what is off, and how to fix it.
+- [dsh-export-ctl-check](https://github.com/PerryLink/dsh-export-ctl-check) - Check an export-control item register line by line — which row, which column, what is missing. Differences only, no verdict.
+- [dsh-forecast-penalty](https://github.com/PerryLink/dsh-forecast-penalty) - Check a forecast-accuracy assessment register for completeness and assessment-charge arithmetic — you get a list of which row, which column, and what to fix; the verdict stays with the reviewer.
+- [dsh-learning-gap-check](https://github.com/PerryLink/dsh-learning-gap-check) - Close the arithmetic and the loop on a competency-gap and development-plan register in one call — differences only, no verdicts.
+- [dsh-power-loss-split](https://github.com/PerryLink/dsh-power-loss-split) - One metering period of line-loss figures, checked in one pass: which row does not close, by how much, and what to fix.
+- [dsh-soilwater-check](https://github.com/PerryLink/dsh-soilwater-check) - Check a soil and groundwater monitoring register for completeness and arithmetic consistency — you get a list of which row, which column, and what to fix; the verdict stays with the reviewer.
+- [dsh-sop-sync-check](https://github.com/PerryLink/dsh-sop-sync-check) - Line up a works-instruction register with the PFMEA and control plan it cites — and get told which row, which column, and what differs.
 
 ## Design & Creative Tools
 
