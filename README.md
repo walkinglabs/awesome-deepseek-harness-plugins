@@ -405,6 +405,12 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-claim-check](https://github.com/PerryLink/dsh-claim-check) - Deterministic claim support checking for DeepSeek Harness: verbatim quote spans, number matching, labelled-value contradiction, negation and hedging polarity against the cited sentence, REP v1 evidence/claim/verdict records and SARIF output. A paraphrase is reported as insufficient, never as supported.
 - [dsh-cite-verify](https://github.com/PerryLink/dsh-cite-verify) - Verify that a citation exists and that its metadata is right, for DeepSeek Harness: DOI / PMID / arXiv / BibTeX resolution through Crossref, PubMed and arXiv, field-by-field metadata comparison, and a REP v1 evidence record; not_found is reported as skipped, never as fabricated.
 - [dsh-dataset-card](https://github.com/PerryLink/dsh-dataset-card) - Dataset documentation for DeepSeek Harness: bounded CSV/TSV/JSON/JSONL profiling, redacted PII detection, a Datasheet-style card with missing-section warnings, Markdown/JSON/SARIF output and REP evidence that stores the analysis but never the raw data.
+- [dsh-check-pack](https://github.com/PerryLink/dsh-check-pack) - One-command installer for the 53-checker PerryLink compliance suite for DeepSeek Harness.
+- [dsh-lit-harvest](https://github.com/PerryLink/dsh-lit-harvest) - Deterministic multi-source literature harvesting for DeepSeek Harness.
+- [dsh-meta-analysis](https://github.com/PerryLink/dsh-meta-analysis) - Meta-analysis arithmetic for DeepSeek Harness: effect-size conversions (OR/RR/d/r/SMD, SE from CI) with named formulas, fixed-effect and DerSimonian-Laird random-effects pooling, Q/df/p, I2, tau2, forest-plot data, Markdown/SARIF reports and a light Egger test for k >= 10. Local, dependency-free, reproducible from the inputs.
+- [dsh-repro-audit](https://github.com/PerryLink/dsh-repro-audit) - Reproducibility evidence for DeepSeek Harness: a bounded read-only scan records the git commit and dirty state, dependency lockfiles, environment pins, input-data and figure hashes, notebooks, explicit seeds and runnable commands, derives gap severities and a reproducible/partial/not_reproducible level, and compares a recorded manifest against the current tree.
+- [dsh-bankrec](https://github.com/PerryLink/dsh-bankrec) - Bank statement reconciliation: ingest CAMT.053 and MT940, match them against ledger entries and export the workpaper — 6 `bankrec.*` tools.
+- [dsh-image-integrity](https://github.com/PerryLink/dsh-image-integrity) - Image integrity checks for DeepSeek Harness: zero-dependency PNG decoding with mean-threshold block fingerprints and NCC confirmation to find duplicated or mirrored regions inside one figure or shared between two figures, plus REP evidence and Markdown/SARIF reports. It finds reused pixels, not manipulation intent.
 
 ## Design & Creative Tools
 
@@ -540,6 +546,10 @@ flowchart LR
 
 
 - [dsh-param-repair](https://github.com/PerryLink/dsh-param-repair) - Maps 13 canonical request parameters to the real field names of 11 vendors and deterministically repairs broken JSON in successful tool results to pass schema validation; host-side only, with no fabricated data.
+- [dsh-codemod](https://github.com/PerryLink/dsh-codemod) - Migration codemods for DeepSeek Harness plugin APIs.
+- [dsh-clinic](https://github.com/PerryLink/dsh-clinic) - Diagnostics, recovery, and readiness checks for DeepSeek Harness plugins.
+- [dsh-primer](https://github.com/PerryLink/dsh-primer) - A practical primer for building DeepSeek Harness plugins.
+- [dsh-scaffold](https://github.com/PerryLink/dsh-scaffold) - Shared scaffold and contracts for the PerryLink DSH plugin family.
 
 ## Utilities
 
