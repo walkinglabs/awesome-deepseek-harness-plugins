@@ -307,6 +307,9 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-pipeline-check](https://github.com/PerryLink/dsh-pipeline-check) - Project document chain integrity check: stage order, completeness and amount parseability.
 - [dsh-sr-ledger](https://github.com/PerryLink/dsh-sr-ledger) - Systematic-review ledger for DeepSeek Harness: PRISMA 2020 protocol revisions, imported records, dual screening with explicit conflict adjudication, RoB 2 / ROBINS-I / GRADE assessments, derived PRISMA counts with integrity issues, and an export bundle (prisma.json/md, evidence-table.md, ledger.json) backed by a hash-chained append-only journal.
 - [dsh-research-skills](https://github.com/PerryLink/dsh-research-skills) - Seven research SOP skills for DeepSeek Harness.
+- [dsh-tender-extract](https://github.com/PerryLink/dsh-tender-extract) - Read a tender clause-extract table and get, row by row, what is off and where — differences only, no verdict.
+- [dsh-gongwen-flow-check](https://github.com/PerryLink/dsh-gongwen-flow-check) - Check a receipt-and-handling register row by row — handler filled, receipt and completion dates parse and follow each other, completion falls inside the recorded deadline, statuses come from your vocabulary, document numbers are unique, and the header names the document — and get back a list of what is inconsistent, where, and what to fix.
+- [dsh-review-reply-check](https://github.com/PerryLink/dsh-review-reply-check) - Check every review comment gets an answer — and that the paper trail says what changed and where.
 
 ## Context, Memory & Observability
 
@@ -440,6 +443,12 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-pdf-table](https://github.com/PerryLink/dsh-pdf-table) - Extract tables from text-layer PDFs to CSV for DSH.
 - [dsh-provider-params](https://github.com/PerryLink/dsh-provider-params) - Vendor parameter mapping and deterministic JSON repair for DSH.
 - [dsh-zotero-bridge](https://github.com/PerryLink/dsh-zotero-bridge) - Read-only Zotero bridge for DeepSeek Harness (Local API + sqlite copy)
+- [dsh-archive-check](https://github.com/PerryLink/dsh-archive-check) - Check every row of a filing register for complete description, unique archive numbers, gap-free item numbers, schedule-conform retention terms and parseable creation dates — and get back a list of what is inconsistent, where, and what to fix.
+- [dsh-emergency-plan](https://github.com/PerryLink/dsh-emergency-plan) - Check an emergency plan's element completeness clause by clause, and locate every difference by page or line — the judgement stays with the reviewer.
+- [dsh-guard-plan-qc](https://github.com/PerryLink/dsh-guard-plan-qc) - Turn one labour-protection PPE configuration table into a row-by-row list of which row, which column, and what to fix — the verdict stays with the reviewer.
+- [dsh-hidden-risk-map](https://github.com/PerryLink/dsh-hidden-risk-map) - Map every row of a safety hazard ledger onto candidate clauses of the major-accident-hazard determination standard — see which row is missing which clause, and why; the verdict stays with the reviewer.
+- [dsh-railway-window](https://github.com/PerryLink/dsh-railway-window) - List, in one pass, every row and column of a railway work-window register that does not add up — the verdict stays with the reviewer.
+- [dsh-warranty-calc](https://github.com/PerryLink/dsh-warranty-calc) - Point out, claim by claim, every arithmetic and period inconsistency in a warranty claim register — which row, which column, what differs.
 
 ## Design & Creative Tools
 
@@ -580,6 +589,7 @@ flowchart LR
 - [dsh-primer](https://github.com/PerryLink/dsh-primer) - A practical primer for building DeepSeek Harness plugins.
 - [dsh-scaffold](https://github.com/PerryLink/dsh-scaffold) - Shared scaffold and contracts for the PerryLink DSH plugin family.
 - [dsh-policy-ledger](https://github.com/PerryLink/dsh-policy-ledger) - Read-only install doctor: capability snapshot, tarball assert and install diagnosis. Install-only companion to dsh-plugin-doctor (tarball/install-log diagnosis).
+- [dsh-rulefile-check](https://github.com/PerryLink/dsh-rulefile-check) - Check a rule pack line by line — unique rule ids, complete basis fields, real excerpt length, link-shaped sources and severity ceilings — and get back what is inconsistent, where, and what to fix.
 
 ## Utilities
 
