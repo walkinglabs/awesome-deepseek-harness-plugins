@@ -304,6 +304,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-legal-intake](https://github.com/PerryLink/dsh-legal-intake) - Legal request intake: read requests out of EML, deduplicate threads and export the intake ledger — 2 `legal.*` tools.
 - [dsh-ota-review-check](https://github.com/PerryLink/dsh-ota-review-check) - OTA guest-review reply ledger check: content and score, reply deadlines, responder, issue category and duplicate review ids.
 - [dsh-travel-recon](https://github.com/PerryLink/dsh-travel-recon) - Travel expense reconciliation: ingest orders, invoices and card lines, deduplicate, run the three-way match and a read-only policy check, then export — 5 `travel.*` tools.
+- [dsh-pipeline-check](https://github.com/PerryLink/dsh-pipeline-check) - Project document chain integrity check: stage order, completeness and amount parseability.
 
 ## Context, Memory & Observability
 
@@ -421,6 +422,15 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-fmea-table-check](https://github.com/PerryLink/dsh-fmea-table-check) - Checks an FMEA worksheet for element completeness and for the arithmetic that follows from it - severity, occurrence and detection against the resulting risk priority number - following published FMEA method standards. Reports inconsistencies; it does not judge whether the ratings themselves are appropriate.
 - [dsh-medrec-qc](https://github.com/PerryLink/dsh-medrec-qc) - Checks a medical-record front sheet for field completeness and for internal logical contradictions between its fields, against 国卫办医发〔2016〕24号 and other published documents. Lists what is missing or inconsistent for a human to review; it does not assess clinical correctness.
 - [dsh-tender-matrix](https://github.com/PerryLink/dsh-tender-matrix) - Checks a bid evaluation scoring matrix for internal arithmetic consistency: that each factor's maximum, the scores recorded and the total agree with each other. Reports the differences it finds; it does not judge whether the evaluation itself was correct or fair.
+- [dsh-customs-doc-check](https://github.com/PerryLink/dsh-customs-doc-check) - Customs declaration document consistency check: field-level findings with rule IDs.
+- [dsh-hazplan-check](https://github.com/PerryLink/dsh-hazplan-check) - HAZOP worksheet check: node, guide word, process parameter, deviation and cause, plus required fields and locally configured risk levels.
+- [dsh-hs-classify](https://github.com/PerryLink/dsh-hs-classify) - HS code classification consistency check: chapter, heading, subheading and code hierarchy.
+- [dsh-icd-rule-check](https://github.com/PerryLink/dsh-icd-rule-check) - Flags ICD coding pairs that need a coder's attention - dagger and asterisk combinations, combination codes - against GB/T 14396-2016 and published ICD usage notes. Reports the pairs it finds rather than resolving them; the coding decision stays with the coder.
+- [dsh-ifc-qto](https://github.com/PerryLink/dsh-ifc-qto) - IFC model quantity take-off with CSV export for quantity checking.
+- [dsh-lawcite-adapter](https://github.com/PerryLink/dsh-lawcite-adapter) - Legal citation check: statute name, article number, text and validity status.
+- [dsh-lc-doc-check](https://github.com/PerryLink/dsh-lc-doc-check) - Letter of credit document check against UCP600: documents, periods and discrepancies.
+- [dsh-nurse-record-check](https://github.com/PerryLink/dsh-nurse-record-check) - Checks nursing records for entry timing, signatures and assessment-form completeness, against 《病历书写基本规范》 and other published documents. Reports what is missing or out of sequence for a human to review.
+- [dsh-power-ticket-check](https://github.com/PerryLink/dsh-power-ticket-check) - Checks an electrical work permit for the elements it must carry and for the issue and permission sequence the current electrical safety regulations require. Reports the differences it finds; it does not judge whether the work was safe or whether the permit was validly authorised.
 
 ## Design & Creative Tools
 
