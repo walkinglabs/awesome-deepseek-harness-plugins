@@ -305,6 +305,8 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-ota-review-check](https://github.com/PerryLink/dsh-ota-review-check) - OTA guest-review reply ledger check: content and score, reply deadlines, responder, issue category and duplicate review ids.
 - [dsh-travel-recon](https://github.com/PerryLink/dsh-travel-recon) - Travel expense reconciliation: ingest orders, invoices and card lines, deduplicate, run the three-way match and a read-only policy check, then export — 5 `travel.*` tools.
 - [dsh-pipeline-check](https://github.com/PerryLink/dsh-pipeline-check) - Project document chain integrity check: stage order, completeness and amount parseability.
+- [dsh-sr-ledger](https://github.com/PerryLink/dsh-sr-ledger) - Systematic-review ledger for DeepSeek Harness: PRISMA 2020 protocol revisions, imported records, dual screening with explicit conflict adjudication, RoB 2 / ROBINS-I / GRADE assessments, derived PRISMA counts with integrity issues, and an export bundle (prisma.json/md, evidence-table.md, ledger.json) backed by a hash-chained append-only journal.
+- [dsh-research-skills](https://github.com/PerryLink/dsh-research-skills) - Seven research SOP skills for DeepSeek Harness.
 
 ## Context, Memory & Observability
 
@@ -358,6 +360,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-essay-rubric-check](https://github.com/PerryLink/dsh-essay-rubric-check) - Checks an essay scoring rubric for completeness, score arithmetic, source-location fields, unique numbering and header ownership, listing only the differences and leaving the grade to the reviewer.
 - [dsh-grant-cn](https://github.com/PerryLink/dsh-grant-cn) - Pre-submission checks for Chinese grant applications: a 19-item structure/attribute checklist, budget arithmetic and direct/indirect/total consistency, and an application-materials pack scan; outputs JSON/Markdown with REP evidence and returns a keyword checklist, not a review verdict.
 - [dsh-legal-clause](https://github.com/PerryLink/dsh-legal-clause) - Splits a contract into a clause tree, maps clauses against a 12-key playbook of key clauses, reports missing keys and duplicate/gapped numbering, and exports the tree as JSON - fully local, with no network or model calls.
+- [dsh-retraction-watch](https://github.com/PerryLink/dsh-retraction-watch) - Retraction and correction monitoring for DeepSeek Harness: Crossref work records plus the verified filter=updates query, per-DOI status (retracted/concern/corrected/notice/clear/unknown), an append-only timeline with change detection, REP v1 evidence snapshots and SARIF output. clear means no registered notice, never proof of validity.
 
 ## Tools, Integrations & Automation
 - [dsh-jev-plugin](https://github.com/luobosibing2/dsh-jev-plugin) - Native DSH/Cordis integration for TypeSafe Jev decision support: opt-in skill and file selection, supervision, shared-finding correction, tool-output filtering, stage navigation, and native one-time workspace-write approval routing. Features default off; enabled judgments send redacted task context to the user-configured Jev or Luna endpoint.
@@ -431,6 +434,12 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-lc-doc-check](https://github.com/PerryLink/dsh-lc-doc-check) - Letter of credit document check against UCP600: documents, periods and discrepancies.
 - [dsh-nurse-record-check](https://github.com/PerryLink/dsh-nurse-record-check) - Checks nursing records for entry timing, signatures and assessment-form completeness, against 《病历书写基本规范》 and other published documents. Reports what is missing or out of sequence for a human to review.
 - [dsh-power-ticket-check](https://github.com/PerryLink/dsh-power-ticket-check) - Checks an electrical work permit for the elements it must carry and for the issue and permission sequence the current electrical safety regulations require. Reports the differences it finds; it does not judge whether the work was safe or whether the permit was validly authorised.
+- [dsh-hazchem-check](https://github.com/PerryLink/dsh-hazchem-check) - Checks a hazardous-chemical register for internal consistency: that each substance names its hazard class, that stored quantities parse, that a threshold is recorded, that the major-hazard-source verdict agrees with how the stored quantity compares to the threshold the register states, that safety data sheet numbers are present and CAS numbers are not duplicated. Reports differences for a human to review; it does not decide whether a unit constitutes a major hazard source.
+- [dsh-repair-order-qc](https://github.com/PerryLink/dsh-repair-order-qc) - Repair order settlement check: item amounts, labour/parts totals and grand total.
+- [dsh-site-log-check](https://github.com/PerryLink/dsh-site-log-check) - Checks supervision logs for cross-day continuity and for on-site supervision coverage, against GB/T 50319-2013 and other published documents. Reports gaps and coverage differences for a human to review.
+- [dsh-pdf-table](https://github.com/PerryLink/dsh-pdf-table) - Extract tables from text-layer PDFs to CSV for DSH.
+- [dsh-provider-params](https://github.com/PerryLink/dsh-provider-params) - Vendor parameter mapping and deterministic JSON repair for DSH.
+- [dsh-zotero-bridge](https://github.com/PerryLink/dsh-zotero-bridge) - Read-only Zotero bridge for DeepSeek Harness (Local API + sqlite copy)
 
 ## Design & Creative Tools
 
@@ -570,6 +579,7 @@ flowchart LR
 - [dsh-clinic](https://github.com/PerryLink/dsh-clinic) - Diagnostics, recovery, and readiness checks for DeepSeek Harness plugins.
 - [dsh-primer](https://github.com/PerryLink/dsh-primer) - A practical primer for building DeepSeek Harness plugins.
 - [dsh-scaffold](https://github.com/PerryLink/dsh-scaffold) - Shared scaffold and contracts for the PerryLink DSH plugin family.
+- [dsh-policy-ledger](https://github.com/PerryLink/dsh-policy-ledger) - Read-only install doctor: capability snapshot, tarball assert and install diagnosis. Install-only companion to dsh-plugin-doctor (tarball/install-log diagnosis).
 
 ## Utilities
 
