@@ -296,6 +296,9 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-global-todo](https://github.com/LUgABeEEE/dsh-global-todo) - Cross-session todo list in one JSON file that the person and the agent both write: every todo records when it was added, can carry attached documents and addresses, and can be handed to a conversation in one click; a todo's steps are dispatched as a numbered plan and an agent's "done" stays a claim until a person confirms it. Installs via the `dsh.bundle` manifest (npm `dsh-global-todo`), declares DSH 0.2.0-rc.1 to 0.3.0.
 
 - [dsh-doc-anchor](https://github.com/PerryLink/dsh-doc-anchor) - Turns PDF/HTML/LaTeX/Markdown documents into locatable evidence surfaces: content-addressed snapshots of the original bytes plus extracted text, page/section/paragraph/char anchors, table grids and REP v1 evidence records; it produces coordinates rather than rendering or judging.
+- [dsh-lit-watch](https://github.com/PerryLink/dsh-lit-watch) - Literature watch for DeepSeek Harness: save named Crossref bibliographic queries with time windows, run them with a bounded client, keep a seen-DOI store so repeated runs return only genuinely new items, and render a Markdown digest plus SARIF.
+- [dsh-dida](https://github.com/PerryLink/dsh-dida) - TickTick / Dida365 task bridge for DeepSeek Harness: a session-header task panel, agent tools and a settings card.
+- [dsh-dmp](https://github.com/PerryLink/dsh-dmp) - Data-management-plan tooling for DeepSeek Harness: a ten-section scaffold with prompts and completeness/consistency checks (datasets, personal data, sharing, retention, backup, repository/license/DOI, contact), plus Markdown/JSON/SARIF export. Checks are internal consistency checks, not funder-template certification.
 
 ## Context, Memory & Observability
 
@@ -396,6 +399,12 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-invoice-ledger](https://github.com/PerryLink/dsh-invoice-ledger) - Checks an invoice ledger for duplicates keyed on code + number, arithmetic consistency, payer mismatch, date anomalies and template placeholders, and emits an anomaly list plus a workbook. Declares compatibility with DSH 0.2.1-0 to 0.3.0.
 - [dsh-table-ingest](https://github.com/PerryLink/dsh-table-ingest) - Converts tables in .docx, .xlsx, .xlsm, .csv and .tsv files into the table JSON consumed by the rule checkers, and reports when it could not rather than guessing. Declares compatibility with DSH 0.2.1-0 to 0.3.0.
 - [dsh-bid-health-check](https://github.com/PerryLink/dsh-bid-health-check) - Checks a bid requirement by requirement against a tender requirements pack and reports which requirements appear answered, weakly matched or not located; it reports differences rather than judging substantive compliance. Declares compatibility with DSH 0.2.1-0 to 0.3.0.
+- [dsh-nsfc-form-check](https://github.com/PerryLink/dsh-nsfc-form-check) - Checks the form requirements, anonymization and host-institution information of NSFC (National Natural Science Foundation of China) grant applications against the annual project guidelines.
+- [dsh-qms-capa](https://github.com/PerryLink/dsh-qms-capa) - Registers QMS nonconformities (NCR) with batches and impact assessment, and tracks CAPA / 8D closure.
+- [dsh-spc-gbt-adapter](https://github.com/PerryLink/dsh-spc-gbt-adapter) - Checks SPC control-chart limits and Cpk/CP process-capability indices against the GB/T 17989.2-2020 control-chart constants.
+- [dsh-claim-check](https://github.com/PerryLink/dsh-claim-check) - Deterministic claim support checking for DeepSeek Harness: verbatim quote spans, number matching, labelled-value contradiction, negation and hedging polarity against the cited sentence, REP v1 evidence/claim/verdict records and SARIF output. A paraphrase is reported as insufficient, never as supported.
+- [dsh-cite-verify](https://github.com/PerryLink/dsh-cite-verify) - Verify that a citation exists and that its metadata is right, for DeepSeek Harness: DOI / PMID / arXiv / BibTeX resolution through Crossref, PubMed and arXiv, field-by-field metadata comparison, and a REP v1 evidence record; not_found is reported as skipped, never as fabricated.
+- [dsh-dataset-card](https://github.com/PerryLink/dsh-dataset-card) - Dataset documentation for DeepSeek Harness: bounded CSV/TSV/JSON/JSONL profiling, redacted PII detection, a Datasheet-style card with missing-section warnings, Markdown/JSON/SARIF output and REP evidence that stores the analysis but never the raw data.
 
 ## Design & Creative Tools
 
@@ -551,6 +560,7 @@ flowchart LR
 - [dsh-local-ai](https://github.com/PerryLink/dsh-local-ai) - Ollama provider for DeepSeek Harness with model management, health checks, rule-based local routing, and cloud fallback. Declares compatibility with DSH 0.1.6-alpha.2.
 - [dsh-mask](https://github.com/PerryLink/dsh-mask) - PII masking for DeepSeek Harness — anonymizes names, phones, emails, ids, and keys before requests and restores them at the display layer, keeping plaintext out of session logs. Declares compatibility with DSH 0.1.6-alpha.2.
 - [dsh-translate](https://github.com/PerryLink/dsh-translate) - Tool-output repair layer for DeepSeek Harness — JSON schema enforcement, parameter mapping, and JSON repair for tool calls. Declares compatibility with DSH 0.1.6-alpha.2.
+- [dsh-locator](https://github.com/PerryLink/dsh-locator) - Whole-disk file-name search for DeepSeek Harness without Everything: a self-built cross-platform index, agent tools and a Web search panel; the engine is a prebuilt Go binary shipped for six platforms and the plugin makes no network requests.
 
 ## Creative & Personal
 
