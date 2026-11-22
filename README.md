@@ -310,6 +310,9 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-tender-extract](https://github.com/PerryLink/dsh-tender-extract) - Read a tender clause-extract table and get, row by row, what is off and where — differences only, no verdict.
 - [dsh-gongwen-flow-check](https://github.com/PerryLink/dsh-gongwen-flow-check) - Check a receipt-and-handling register row by row — handler filled, receipt and completion dates parse and follow each other, completion falls inside the recorded deadline, statuses come from your vocabulary, document numbers are unique, and the header names the document — and get back a list of what is inconsistent, where, and what to fix.
 - [dsh-review-reply-check](https://github.com/PerryLink/dsh-review-reply-check) - Check every review comment gets an answer — and that the paper trail says what changed and where.
+- [dsh-bid-ca-precheck](https://github.com/PerryLink/dsh-bid-ca-precheck) - Check a bid compliance response register for completeness and internal consistency — get a list of what is inconsistent, where, and what to fix; the verdict stays with the evaluation committee.
+- [dsh-bid-qual-check](https://github.com/PerryLink/dsh-bid-qual-check) - Walk a bidder qualification condition register row by row and point at exactly which row and column do not close the loop.
+- [dsh-pleading-draft](https://github.com/PerryLink/dsh-pleading-draft) - Check a pleading-element checklist for completeness and internal consistency — you get a list of which row, which column, and what to fix; the verdict stays with the reviewer.
 
 ## Context, Memory & Observability
 
@@ -449,6 +452,12 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-hidden-risk-map](https://github.com/PerryLink/dsh-hidden-risk-map) - Map every row of a safety hazard ledger onto candidate clauses of the major-accident-hazard determination standard — see which row is missing which clause, and why; the verdict stays with the reviewer.
 - [dsh-railway-window](https://github.com/PerryLink/dsh-railway-window) - List, in one pass, every row and column of a railway work-window register that does not add up — the verdict stays with the reviewer.
 - [dsh-warranty-calc](https://github.com/PerryLink/dsh-warranty-calc) - Point out, claim by claim, every arithmetic and period inconsistency in a warranty claim register — which row, which column, what differs.
+- [dsh-demurrage-ledger](https://github.com/PerryLink/dsh-demurrage-ledger) - Point out the numbers in a demurrage and detention ledger that do not add up — row by row, without pronouncing a verdict.
+- [dsh-permit-report-check](https://github.com/PerryLink/dsh-permit-report-check) - Check an administrative licensing register row by row — you get a list of which row, which column, and what is off; the permit decision stays with the approver.
+- [dsh-safety-brief-check](https://github.com/PerryLink/dsh-safety-brief-check) - Check one safety technical briefing record and get back the exact "which rule, which column, what differs, how to fix it" list — the verdict stays with the reviewer.
+- [dsh-origin-rvc-check](https://github.com/PerryLink/dsh-origin-rvc-check) - Check an origin determination register line by line — RVC arithmetic and declaration fields — and get back a list of what is inconsistent, where, and what to fix.
+- [dsh-paper-doc-adapter](https://github.com/PerryLink/dsh-paper-doc-adapter) - Reports every mismatch in a parsed exam paper — which row, which field, what is off.
+- [dsh-soe-decision-check](https://github.com/PerryLink/dsh-soe-decision-check) - Turn one “three-important-and-one-large” decision register into a list of what is inconsistent, where, and what to fix — differences only, never a compliance verdict.
 
 ## Design & Creative Tools
 
@@ -590,6 +599,7 @@ flowchart LR
 - [dsh-scaffold](https://github.com/PerryLink/dsh-scaffold) - Shared scaffold and contracts for the PerryLink DSH plugin family.
 - [dsh-policy-ledger](https://github.com/PerryLink/dsh-policy-ledger) - Read-only install doctor: capability snapshot, tarball assert and install diagnosis. Install-only companion to dsh-plugin-doctor (tarball/install-log diagnosis).
 - [dsh-rulefile-check](https://github.com/PerryLink/dsh-rulefile-check) - Check a rule pack line by line — unique rule ids, complete basis fields, real excerpt length, link-shaped sources and severity ceilings — and get back what is inconsistent, where, and what to fix.
+- [dsh-eval-pack](https://github.com/PerryLink/dsh-eval-pack) - Compare a small eval pack case by case with exact JSON equality and get the pass rate, the failing ids, and pass@k on the spot.
 
 ## Utilities
 
