@@ -247,6 +247,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 
 ## Productivity & Agent Workflow
 
+- [AgentCompare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/tree/c3dc500ac8d45afca5263160b28b545220a0e384) - Compare two to four answers, files, or interactive pages in a DSH Desktop or Web session, with blind or open comparison and review before adoption. v3.3.0 declares DSH `>=0.2.1-rc.3 <0.3.0-0`; model runs can incur charges, and sandbox coverage is limited on Windows.
 - [dsh-autocompose](https://github.com/Han-1413141/dsh-autocompose) - Find and compose DSH plugins from a task description, then open an independent chat environment or install the plan into the current profile. Compatible with DSH 0.2.0-rc.2.
 - [dsh-file-claim](https://github.com/Nwflower/dsh-file-claim) - File claim/release protection for parallel DSH sessions in one workspace, with stale-heartbeat takeover and a pending three-way-merge area.
 - [dsh-worktree](https://github.com/FlashingChen/dsh-worktree) - Permanent Codex-style Git worktrees, agent tools, `/worktree`, and per-repository manifests.
