@@ -382,6 +382,8 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [dsh-plugin-upgrade](https://github.com/PerryLink/dsh-plugin-upgrade) - DeepSeek Harness 的插件作者升级技能：单个包携带走廊索引，能检测调用方所处的对等版本区间并路由到与之匹配的封闭走廊卡片（0.1.3-alpha.1 -> 0.1.5-rc.1 为 A+B 段，0.1.5-rc.2 -> 0.1.6-alpha.2 为 C 段），另附以 bundle 技能和 npx CLI 形式分发的零依赖接缝扫描器。声明兼容 DSH 0.1.6-alpha.2。
 - [dsh-research-report](https://github.com/PerryLink/dsh-research-report) - DeepSeek Harness 的可验证研究报告引擎，具备内容寻址的证据账本、版本化的密封报告（每条论断都带有验证结论，并由清单哈希封存目录），以及复用 ctx.web 和 ctx.jobs 接缝的检索编排。声明兼容 DSH 0.1.6-alpha.2。
 - [dsh-score](https://github.com/PerryLink/dsh-score) - 面向 DeepSeek Harness 插件的多维度质量评分，基于真实 CLI 证据，从安装成功率、维护活跃度、文档完整度、安全扫描和协议合规性等方面对仓库或 npm 包打分，并生成 JSON 或 Markdown 排行榜报告。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-thesis-trail](https://github.com/UncertaintyDeterminesYou4ndMe/dsh-thesis-trail/tree/a1f7f2f5a96ac3be2972b95ceaaceb02588a8d61) - 在 DSH Web 或桌面端侧栏记录投资命题、证伪条件和证据。启用定时研究后，相关命题上下文会发送至 DeepSeek API，可能产生费用。作者报告在 DSH `0.2.2-rc.3` 测试；声明兼容 `>=0.2.2-rc.1 <0.3.0-0`。
+
 - [dsh-session-pin](https://github.com/PerryLink/dsh-session-pin) - 将会话和工作区置顶到 Web 侧边栏顶部，支持每个置顶项的行颜色、标题栏开关和置顶面板；0.4.0 新增导航组织器——置顶分组（看板）、标签与已保存的筛选视图、会话健康摘要，以及 /goto。声明兼容 DSH 0.1.6-alpha.2。
 - [dsh-session-sync](https://github.com/PerryLink/dsh-session-sync) - DeepSeek Harness 的跨设备会话同步——通过 git 在多台机器之间同步会话和设置。声明兼容 DSH 0.1.6-alpha.2。
 - [dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) - 安全审计方法技能包以及 plugin_vet 供应链门禁：八个代理技能（密钥扫描、依赖审计、供应链审查、提示注入审查、审计编排、威胁建模、漏洞情报、事件响应），提供中英文两个版本，并附带一个 npm 提供方 bundle，用于挂载这些技能并注册自动化的 plugin_vet 安装前扫描器。声明兼容 DSH 0.1.6-alpha.2。
