@@ -405,6 +405,7 @@ flowchart LR
   Agent --> Output["Updated design, code, or artifact"]
 ```
 
+- [dsh-design-board](https://github.com/Antares422/dsh-design-board) - Right-sidebar interactive design canvas for side-by-side HTML prototype comparison, visual DOM element picking and canvas annotations fed back to the agent, light/dark toggle, PNG/PDF/HTML export, and 165 built-in design system presets. Installs via `dsh.bundle` with `cordis.patch.yml`; declares compatibility with DSH `>=0.2.0-0 <0.3.0` (tested on `0.2.2-rc.5`).
 - [dsh-figma-to-lottie](https://github.com/zimai233/dsh-figma-to-lottie) - Compile SVG paths and keyframe data into self-contained Lottie JSON animation files.
 - [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) - OpenPencil integration with multi-frame previews, an interactive canvas, and managed editor workbenches.
 - [dsh-genui](https://github.com/omdsh-dev/dsh-genui) - Render interactive components, charts, forms, Mermaid, and 3D scenes inline in replies with an action loop back to the agent.
