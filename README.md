@@ -456,6 +456,7 @@ flowchart LR
 - [dsh-session-notification](https://github.com/dingyi222666/dsh-session-notification) - Browser and prompt notifications for four session states.
 - [dsh-bell-notify](https://github.com/Laplace-bit/dsh-bell-notify) - Per-lifecycle-event chimes for DSH (startup, tool call, command, approval wait, turn complete, idle) synthesized live with Web Audio — zero audio files — plus a breathing status dot; declarable via a `dsh.bundle` manifest with a Cordis patch.
 - [dsh-deeplink](https://github.com/qyw233/dsh-deeplink) - Open a specified session or workspace directly from a Web UI URL.
+- [dsh-gta6](https://github.com/manyuemeiquqi/dsh-gta6) - Vice City theme for DSH Web 0.2.x built on the official GTA VI key art: a wanted-level meter driven by session run state, tool-call rows coloured by activity, and a sidebar panel showing the live session title, token usage, model and reasoning level.
 - [dsh-navbar](https://github.com/vlln/dsh-navbar) - Right-edge conversation-node navigation.
 - [dsh-task-status](https://github.com/vlln/dsh-task-status) - Background task progress and live-output status bar.
 - [dsh-spotlight](https://github.com/0xsline/dsh-spotlight) - Keyboard-first command palette for DSH Web.
