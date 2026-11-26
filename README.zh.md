@@ -114,6 +114,7 @@ flowchart LR
   Agent --> Output["更新后的设计、代码或产物"]
 ```
 
+- [dsh-design-board](https://github.com/Antares422/dsh-design-board) - 右侧栏交互式设计画布，支持多份 HTML 原型并排对比、点选/框选 DOM 元素与批注回传、深浅主题切换、PNG/PDF/HTML 导出及 165 套内置设计体系预设，兼容 DSH `>=0.2.0-0 <0.3.0`。 / Right-sidebar interactive design canvas with side-by-side HTML prototypes, visual DOM element picking/annotations, and 165 built-in design system presets (DSH `>=0.2.0-0 <0.3.0`).
 - [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) - 多帧预览、交互式画布与受管理编辑器工作台。 / Multi-frame previews, an interactive canvas, and managed editor workbenches.
 - [dsh-genui](https://github.com/omdsh-dev/dsh-genui) - 在回复中渲染交互组件、图表、表单、Mermaid 与 3D 场景，并回传操作事件。 / Inline generated UI with an action loop.
 - [dsh-web-review](https://github.com/CanglongCl/dsh-web-review) - 网页预览与元素批注反馈，帮助 Agent 改源码。 / Web preview and annotated visual feedback for source editing.
