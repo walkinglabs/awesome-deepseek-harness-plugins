@@ -422,6 +422,8 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [dsh-community-bench](https://github.com/PerryLink/dsh-community-bench) - 增加社区基准标签页，读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地计算分数。声明兼容 DSH 0.2.1-0 至 0.3.0。 / Community Bench tab backed by the public task-conditioned registry; no local scoring.
 - [dsh-mindmap-live](https://github.com/SSShooter/dsh-mindmap-live) - 为 DSH Web 增加实时双向思维导图，基于 Mind Elixir：Agent 与用户共编同一棵树，改动即时互相同步，支持停靠分屏与全屏两种视图，并支持 PNG 导出和在桌面应用中打开。通过 dsh.bundle 清单安装。 / Adds a live, bidirectional mind map to DSH Web built on Mind Elixir, with docked and fullscreen views, PNG export and open-in-desktop; installs via a dsh.bundle manifest.
 
+- [ColaMD-themes](https://github.com/byteuser1977/ColaMD-themes) - 给 DSH 的 Markdown 主题工具：输入框旁的主题胶囊提供 69 套 ColaMD 契约主题（12 套内置），按选中主题就地渲染 `.md`，并把文稿导出为 A4 PDF / Word、把 11 种版式的 16:9 幻灯片导出为 PDF / PPTX，导出用的 CSS 与页面完全同源。通过 `dsh.bundle` 补丁挂载 Web 客户端并注入 `@deepseek-ai/dsh-client-ui-conversation`、`@deepseek-ai/dsh-client-ui-sidebar-right`、`@deepseek-ai/dsh-client-ui-sidebar-documentpreview`，用 `ctx.webServer` 注册六条宿主路由，peer 依赖覆盖 DSH `^0.2.0-rc` … `^0.2.9-rc`。
+
 ## 贡献
 
 请阅读[中文贡献指南](CONTRIBUTING.zh.md)或[English guide](CONTRIBUTING.md)。提交条目时，请提供源码中 DSH 集成的具体证据。
