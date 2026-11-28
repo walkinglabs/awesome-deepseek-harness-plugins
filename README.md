@@ -295,6 +295,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 
 - [dsh-orquestrator](https://github.com/frederico-kluser/dsh-orquestrator) - Pick the model your subagents run on — with a reasoning-effort ceiling and an output-token cap — enforced in code on every child DSH starts, whichever tool starts it (subagent tools, workflow agents, ralph rounds, one-shot jobs, agent teams); also ships the global `orchestrate-subagents` agent skill and marks each subagent on the task page with model and state. Tested with DSH 0.1.6-alpha.2.
 - [dsh-global-todo](https://github.com/LUgABeEEE/dsh-global-todo) - Cross-session todo list in one JSON file that the person and the agent both write: every todo records when it was added, can carry attached documents and addresses, and can be handed to a conversation in one click; a todo's steps are dispatched as a numbered plan and an agent's "done" stays a claim until a person confirms it. Installs via the `dsh.bundle` manifest (npm `dsh-global-todo`), declares DSH 0.2.0-rc.1 to 0.3.0.
+- [dsh-literature-lab](https://github.com/luojiahao-cn/dsh-literature-lab) - Daily literature pipeline for DSH 0.2.x: collects papers from arXiv, journal RSS, cross-database search and mail alerts, screens them in three AI passes (abstract, triage, full reading), fetches open-access PDFs and files selected papers into Zotero.
 
 ## Context, Memory & Observability
 
